@@ -1,0 +1,2326 @@
+{
+    "data": {
+        "categoryInfo": {
+            "categorys": [{
+                "catLevel": 1,
+                "catName": "推荐商品",
+                "cateSource": 3,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "热卖TOP",
+                    "cateSource": 3,
+                    "cmCatId": 300101,
+                    "displayCatLevel": 2,
+                    "selected": false
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "什么值得买",
+                    "cateSource": 3,
+                    "cmCatId": 300102,
+                    "displayCatLevel": 2,
+                    "selected": false
+                }],
+                "cmCatId": 300100,
+                "displayCatLevel": 1,
+                "selected": false
+            },
+            {
+                "catLevel": 1,
+                "catName": "生鲜食品",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "新鲜水果",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "国产水果",
+                        "cateSource": 1,
+                        "cmCatId": 10262,
+                        "displayCatLevel": 3,
+                        "selected": true,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "进口水果",
+                        "cateSource": 1,
+                        "cmCatId": 10263,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10255,
+                    "displayCatLevel": 2,
+                    "selected": true,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "蔬菜豆菇",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "优鲜蔬菜",
+                        "cateSource": 1,
+                        "cmCatId": 10269,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "冷藏蔬菜",
+                        "cateSource": 1,
+                        "cmCatId": 10273,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "加工蔬菜",
+                        "cateSource": 1,
+                        "cmCatId": 10272,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "豆制品",
+                        "cateSource": 1,
+                        "cmCatId": 10271,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10256,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "肉/禽/蛋",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "猪肉",
+                        "cateSource": 1,
+                        "cmCatId": 10274,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "牛/羊肉",
+                        "cateSource": 1,
+                        "cmCatId": 10275,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "鸡/鸭类",
+                        "cateSource": 1,
+                        "cmCatId": 10277,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "蛋类",
+                        "cateSource": 1,
+                        "cmCatId": 10280,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10257,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "海鲜/水产",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "鱼",
+                        "cateSource": 1,
+                        "cmCatId": 10281,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "虾/蟹类",
+                        "cateSource": 1,
+                        "cmCatId": 10282,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "其他水产",
+                        "cateSource": 1,
+                        "cmCatId": 10284,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10258,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "面点熟食",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "肉类熟食",
+                        "cateSource": 1,
+                        "cmCatId": 10881,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "水饺/面条/大饼",
+                        "cateSource": 1,
+                        "cmCatId": 10882,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "包子/馒头/花卷",
+                        "cateSource": 1,
+                        "cmCatId": 10883,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "汤圆/馄饨/烧麦",
+                        "cateSource": 1,
+                        "cmCatId": 10884,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "低温米面食品",
+                        "cateSource": 1,
+                        "cmCatId": 10917,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "其它点心",
+                        "cateSource": 1,
+                        "cmCatId": 10885,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10880,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "散干货",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "散称杂粮",
+                        "cateSource": 1,
+                        "cmCatId": 11256,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "散称干货",
+                        "cateSource": 1,
+                        "cmCatId": 10792,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "散称休食",
+                        "cateSource": 1,
+                        "cmCatId": 11257,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10791,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10248,
+                "displayCatLevel": 1,
+                "selected": true,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "牛奶/冰品",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "牛奶/豆奶",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "鲜牛奶",
+                        "cateSource": 1,
+                        "cmCatId": 11202,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "纯牛奶",
+                        "cateSource": 1,
+                        "cmCatId": 11203,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "风味奶/儿童奶",
+                        "cateSource": 1,
+                        "cmCatId": 11204,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "豆奶/豆浆",
+                        "cateSource": 1,
+                        "cmCatId": 11205,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11197,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "酸奶/乳酸",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "常温酸奶",
+                        "cateSource": 1,
+                        "cmCatId": 11206,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "低温酸奶",
+                        "cateSource": 1,
+                        "cmCatId": 11207,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "乳酸菌",
+                        "cateSource": 1,
+                        "cmCatId": 11208,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "果汁/咖啡",
+                        "cateSource": 1,
+                        "cmCatId": 11209,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11198,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "冰品/奶酪",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "雪糕/冰棍",
+                        "cateSource": 1,
+                        "cmCatId": 11214,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 冰激凌 ",
+                        "cateSource": 1,
+                        "cmCatId": 11215,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "奶酪/黄油/沙拉酱",
+                        "cateSource": 1,
+                        "cmCatId": 11245,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11201,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 11196,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "名酒饮料",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "饮料/水",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": " 水",
+                        "cateSource": 1,
+                        "cmCatId": 10932,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 果汁",
+                        "cateSource": 1,
+                        "cmCatId": 10933,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 茶饮料",
+                        "cateSource": 1,
+                        "cmCatId": 10937,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 碳酸饮料",
+                        "cateSource": 1,
+                        "cmCatId": 10939,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 功能饮料",
+                        "cateSource": 1,
+                        "cmCatId": 10940,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 奶茶/咖啡饮料",
+                        "cateSource": 1,
+                        "cmCatId": 10942,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10931,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "中外名酒",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": " 白酒",
+                        "cateSource": 1,
+                        "cmCatId": 10980,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 啤酒",
+                        "cateSource": 1,
+                        "cmCatId": 10981,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 葡萄酒/果酒",
+                        "cateSource": 1,
+                        "cmCatId": 10982,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 洋酒",
+                        "cateSource": 1,
+                        "cmCatId": 10983,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": " 保健酒",
+                        "cateSource": 1,
+                        "cmCatId": 10984,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10977,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "冲调/保健",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "冲饮谷物",
+                        "cateSource": 1,
+                        "cmCatId": 10923,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "咖啡/奶茶",
+                        "cateSource": 1,
+                        "cmCatId": 10925,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "茶叶",
+                        "cateSource": 1,
+                        "cmCatId": 10926,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "蜂蜜",
+                        "cateSource": 1,
+                        "cmCatId": 10928,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "滋补保健",
+                        "cateSource": 1,
+                        "cmCatId": 10929,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10922,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10250,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "粮油/速食",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "粮油干货",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "食用油",
+                        "cateSource": 1,
+                        "cmCatId": 10302,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "米面杂粮/粉条",
+                        "cateSource": 1,
+                        "cmCatId": 10879,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "南北干货",
+                        "cateSource": 1,
+                        "cmCatId": 10307,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10301,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "方便速食",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "方便面/粉丝",
+                        "cateSource": 1,
+                        "cmCatId": 10903,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "速食汤/粥/饭",
+                        "cateSource": 1,
+                        "cmCatId": 10311,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "火腿/卤蛋",
+                        "cateSource": 1,
+                        "cmCatId": 10312,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "罐头",
+                        "cateSource": 1,
+                        "cmCatId": 10316,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "酱菜/泡菜",
+                        "cateSource": 1,
+                        "cmCatId": 10315,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10308,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "厨房调味",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "盐/糖/味精",
+                        "cateSource": 1,
+                        "cmCatId": 10905,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "酱油/醋",
+                        "cateSource": 1,
+                        "cmCatId": 10907,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "调味油/汁",
+                        "cateSource": 1,
+                        "cmCatId": 10322,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "调味料/酱",
+                        "cateSource": 1,
+                        "cmCatId": 10323,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "果酱/沙拉酱",
+                        "cateSource": 1,
+                        "cmCatId": 10909,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10317,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10249,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "休闲小食",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "饼干糕点",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "饼干",
+                        "cateSource": 1,
+                        "cmCatId": 11240,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "威化/曲奇",
+                        "cateSource": 1,
+                        "cmCatId": 11241,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "沙琪玛",
+                        "cateSource": 1,
+                        "cmCatId": 11242,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "中式/西式糕点",
+                        "cateSource": 1,
+                        "cmCatId": 11243,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "面包/面包干",
+                        "cateSource": 1,
+                        "cmCatId": 11244,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11220,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "糖果巧克力",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "巧克力",
+                        "cateSource": 1,
+                        "cmCatId": 11221,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "口香糖2",
+                        "cateSource": 1,
+                        "cmCatId": 11222,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "糖果/润喉糖",
+                        "cateSource": 1,
+                        "cmCatId": 11223,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "布丁/果冻",
+                        "cateSource": 1,
+                        "cmCatId": 11224,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "碎冰冰/龟苓膏",
+                        "cateSource": 1,
+                        "cmCatId": 11225,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11217,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "休闲零食",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "薯片/薯条",
+                        "cateSource": 1,
+                        "cmCatId": 11226,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "虾条/虾片/锅巴",
+                        "cateSource": 1,
+                        "cmCatId": 11227,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "仙贝/雪饼/米果",
+                        "cateSource": 1,
+                        "cmCatId": 11228,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "其他膨化食品",
+                        "cateSource": 1,
+                        "cmCatId": 11229,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "豆干/素食",
+                        "cateSource": 1,
+                        "cmCatId": 11230,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "肉类/海味小食",
+                        "cateSource": 1,
+                        "cmCatId": 11231,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "枣",
+                        "cateSource": 1,
+                        "cmCatId": 11232,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "话梅/蜜饯",
+                        "cateSource": 1,
+                        "cmCatId": 11233,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "山楂/葡萄干",
+                        "cateSource": 1,
+                        "cmCatId": 11234,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11218,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "坚果炒货",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "瓜子/花生",
+                        "cateSource": 1,
+                        "cmCatId": 11235,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "核桃/杏仁/腰果",
+                        "cateSource": 1,
+                        "cmCatId": 11236,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "开心果/碧根果",
+                        "cateSource": 1,
+                        "cmCatId": 11237,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "其他坚果",
+                        "cateSource": 1,
+                        "cmCatId": 11238,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11219,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 11216,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "海外进口",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "豆奶/牛奶",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "牛奶乳饮",
+                        "cateSource": 1,
+                        "cmCatId": 10395,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10377,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "饮料/酒",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "烈酒",
+                        "cateSource": 1,
+                        "cmCatId": 10406,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "进口啤",
+                        "cateSource": 1,
+                        "cmCatId": 10400,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "葡萄酒",
+                        "cateSource": 1,
+                        "cmCatId": 10401,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "水/饮料",
+                        "cateSource": 1,
+                        "cmCatId": 10402,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10378,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "零食/小食",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "巧克力/糖果",
+                        "cateSource": 1,
+                        "cmCatId": 10407,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "膨化/糕点",
+                        "cateSource": 1,
+                        "cmCatId": 10410,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "蜜饯/坚果",
+                        "cateSource": 1,
+                        "cmCatId": 10409,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "小食/豆制品",
+                        "cateSource": 1,
+                        "cmCatId": 10411,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10379,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "粮油/调味",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "食用油品",
+                        "cateSource": 1,
+                        "cmCatId": 10414,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "罐头食品",
+                        "cateSource": 1,
+                        "cmCatId": 10420,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10380,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "冲调/滋补品",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "奶茶/咖啡",
+                        "cateSource": 1,
+                        "cmCatId": 10382,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10376,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "洗护清洁家居",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "美妆洗护用品",
+                        "cateSource": 1,
+                        "cmCatId": 11250,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "家洗用品",
+                        "cateSource": 1,
+                        "cmCatId": 11251,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "母婴品",
+                        "cateSource": 1,
+                        "cmCatId": 11253,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "爱宠用品",
+                        "cateSource": 1,
+                        "cmCatId": 11255,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 11249,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10251,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "母婴天地",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "奶粉/辅食",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "婴幼儿奶粉",
+                        "cateSource": 1,
+                        "cmCatId": 10427,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "果泥/果蔬汁",
+                        "cateSource": 1,
+                        "cmCatId": 10430,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "米/面/粥",
+                        "cateSource": 1,
+                        "cmCatId": 10431,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "饼干/肉松",
+                        "cateSource": 1,
+                        "cmCatId": 10432,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "婴幼儿零食",
+                        "cateSource": 1,
+                        "cmCatId": 10433,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "婴幼保健",
+                        "cateSource": 1,
+                        "cmCatId": 10435,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10421,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "尿裤湿巾",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "纸尿裤",
+                        "cateSource": 1,
+                        "cmCatId": 10962,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "尿布/尿垫",
+                        "cateSource": 1,
+                        "cmCatId": 10963,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "婴儿湿巾/纸巾",
+                        "cateSource": 1,
+                        "cmCatId": 10439,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10422,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "哺喂/洗护",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "奶瓶/奶嘴",
+                        "cateSource": 1,
+                        "cmCatId": 10450,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "宝宝餐具",
+                        "cateSource": 1,
+                        "cmCatId": 10452,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "婴儿护肤",
+                        "cateSource": 1,
+                        "cmCatId": 10453,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "洗护清洁",
+                        "cateSource": 1,
+                        "cmCatId": 10454,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10424,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "婴幼玩具/车床",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "婴幼玩具",
+                        "cateSource": 1,
+                        "cmCatId": 10967,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "安全防护",
+                        "cateSource": 1,
+                        "cmCatId": 10969,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10426,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10252,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "美容洗护",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "个人洗护",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "洗发水",
+                        "cateSource": 1,
+                        "cmCatId": 10481,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "护发素",
+                        "cateSource": 1,
+                        "cmCatId": 10483,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "染发造型",
+                        "cateSource": 1,
+                        "cmCatId": 10957,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "洗护套装",
+                        "cateSource": 1,
+                        "cmCatId": 10486,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "沐浴露",
+                        "cateSource": 1,
+                        "cmCatId": 10776,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "洗手液/香皂",
+                        "cateSource": 1,
+                        "cmCatId": 10779,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10474,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "美容护肤",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "洁面",
+                        "cateSource": 1,
+                        "cmCatId": 10487,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "卸妆/爽肤水",
+                        "cateSource": 1,
+                        "cmCatId": 10488,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "乳液/面霜",
+                        "cateSource": 1,
+                        "cmCatId": 10958,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "面膜",
+                        "cateSource": 1,
+                        "cmCatId": 10489,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "身体乳/护手霜",
+                        "cateSource": 1,
+                        "cmCatId": 10959,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "护肤套装",
+                        "cateSource": 1,
+                        "cmCatId": 10494,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10475,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "口腔护理",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "牙膏/牙粉",
+                        "cateSource": 1,
+                        "cmCatId": 10517,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "牙刷/牙线",
+                        "cateSource": 1,
+                        "cmCatId": 10518,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "漱口水",
+                        "cateSource": 1,
+                        "cmCatId": 10520,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10479,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "男士护理",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "面部洗护",
+                        "cateSource": 1,
+                        "cmCatId": 10527,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "剃须护理",
+                        "cateSource": 1,
+                        "cmCatId": 10528,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "洗发/沐浴",
+                        "cateSource": 1,
+                        "cmCatId": 10529,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "男士身体护理",
+                        "cateSource": 1,
+                        "cmCatId": 10530,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10480,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "女性护理",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "卫生巾",
+                        "cateSource": 1,
+                        "cmCatId": 10510,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "护垫",
+                        "cateSource": 1,
+                        "cmCatId": 10513,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "私密护理",
+                        "cateSource": 1,
+                        "cmCatId": 10514,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "成人纸尿裤/内裤",
+                        "cateSource": 1,
+                        "cmCatId": 10515,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "计生急救",
+                        "cateSource": 1,
+                        "cmCatId": 10516,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10478,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "精致彩妆",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "唇膏/唇彩",
+                        "cateSource": 1,
+                        "cmCatId": 10960,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "隔离/防晒",
+                        "cateSource": 1,
+                        "cmCatId": 10961,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "美妆工具",
+                        "cateSource": 1,
+                        "cmCatId": 10509,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "香水",
+                        "cateSource": 1,
+                        "cmCatId": 10508,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10477,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10253,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "家庭清洁",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "纸品湿巾",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "卷纸",
+                        "cateSource": 1,
+                        "cmCatId": 10536,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "抽纸",
+                        "cateSource": 1,
+                        "cmCatId": 10535,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "手帕纸",
+                        "cateSource": 1,
+                        "cmCatId": 10538,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "湿巾",
+                        "cateSource": 1,
+                        "cmCatId": 10540,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "厨房用纸",
+                        "cateSource": 1,
+                        "cmCatId": 10539,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10531,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "衣物洗涤",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "洗衣液",
+                        "cateSource": 1,
+                        "cmCatId": 10542,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "洗衣粉/皂",
+                        "cateSource": 1,
+                        "cmCatId": 10543,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "除菌消毒",
+                        "cateSource": 1,
+                        "cmCatId": 10544,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "柔顺剂",
+                        "cateSource": 1,
+                        "cmCatId": 10545,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "漂白去渍",
+                        "cateSource": 1,
+                        "cmCatId": 10547,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10532,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "家居/厨卫清洁",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "洗洁精",
+                        "cateSource": 1,
+                        "cmCatId": 10548,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "油污净",
+                        "cateSource": 1,
+                        "cmCatId": 10549,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "洁厕剂",
+                        "cateSource": 1,
+                        "cmCatId": 10550,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "消毒液/管道疏通",
+                        "cateSource": 1,
+                        "cmCatId": 10551,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "玻璃/地板/清洁",
+                        "cateSource": 1,
+                        "cmCatId": 10553,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10533,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "清洁工具",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "拖把/扫帚",
+                        "cateSource": 1,
+                        "cmCatId": 10946,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "百洁布/钢丝球",
+                        "cateSource": 1,
+                        "cmCatId": 10947,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "垃圾袋/垃圾桶",
+                        "cateSource": 1,
+                        "cmCatId": 10948,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "脸盆/水桶",
+                        "cateSource": 1,
+                        "cmCatId": 10949,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "浴室用品",
+                        "cateSource": 1,
+                        "cmCatId": 10950,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10945,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "驱蚊/除味",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "蚊香液/蚊香片",
+                        "cateSource": 1,
+                        "cmCatId": 10952,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "杀虫剂",
+                        "cateSource": 1,
+                        "cmCatId": 10953,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "驱虫除味",
+                        "cateSource": 1,
+                        "cmCatId": 10954,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "花露水",
+                        "cateSource": 1,
+                        "cmCatId": 10955,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "吸湿防潮",
+                        "cateSource": 1,
+                        "cmCatId": 10956,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10951,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10254,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            },
+            {
+                "catLevel": 1,
+                "catName": "家居日用",
+                "cateSource": 1,
+                "childCmCategories": [{
+                    "catLevel": 2,
+                    "catName": "厨房用具",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "锅具",
+                        "cateSource": 1,
+                        "cmCatId": 10901,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "厨房工具",
+                        "cateSource": 1,
+                        "cmCatId": 10735,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "保鲜盒/饭盒",
+                        "cateSource": 1,
+                        "cmCatId": 10736,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "调味容器",
+                        "cateSource": 1,
+                        "cmCatId": 10737,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10727,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "餐具/水具",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "餐具",
+                        "cateSource": 1,
+                        "cmCatId": 10904,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "水具",
+                        "cateSource": 1,
+                        "cmCatId": 10906,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "茶具/酒具",
+                        "cateSource": 1,
+                        "cmCatId": 10787,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "果盘/托盘",
+                        "cateSource": 1,
+                        "cmCatId": 10788,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10781,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "一次性商品",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "保鲜袋/保鲜膜",
+                        "cateSource": 1,
+                        "cmCatId": 10576,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "纸杯/塑杯",
+                        "cateSource": 1,
+                        "cmCatId": 10578,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "一次性餐具/桌布",
+                        "cateSource": 1,
+                        "cmCatId": 10577,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10575,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "家居家纺",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "床上用品",
+                        "cateSource": 1,
+                        "cmCatId": 10918,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "毛巾/浴巾",
+                        "cateSource": 1,
+                        "cmCatId": 10919,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "内衣裤 袜子",
+                        "cateSource": 1,
+                        "cmCatId": 10921,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "布艺收纳/洗晒",
+                        "cateSource": 1,
+                        "cmCatId": 10924,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "节日饰品",
+                        "cateSource": 1,
+                        "cmCatId": 10930,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10598,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "户外/办公",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "家用五金",
+                        "cateSource": 1,
+                        "cmCatId": 10934,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "汽车用品",
+                        "cateSource": 1,
+                        "cmCatId": 10632,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10621,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                },
+                {
+                    "catLevel": 2,
+                    "catName": "宠物商品",
+                    "cateSource": 1,
+                    "childCmCategories": [{
+                        "catLevel": 3,
+                        "catName": "宠物主粮",
+                        "cateSource": 1,
+                        "cmCatId": 10938,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "宠物零食",
+                        "cateSource": 1,
+                        "cmCatId": 10941,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    },
+                    {
+                        "catLevel": 3,
+                        "catName": "日用装备",
+                        "cateSource": 1,
+                        "cmCatId": 10943,
+                        "displayCatLevel": 3,
+                        "selected": false,
+                        "status": 1
+                    }],
+                    "cmCatId": 10633,
+                    "displayCatLevel": 2,
+                    "selected": false,
+                    "status": 1
+                }],
+                "cmCatId": 10567,
+                "displayCatLevel": 1,
+                "selected": false,
+                "status": 1
+            }],
+            "depth": 3
+        },
+        "pageModules": [{
+            "bizLogo": "https://img.dmallcdn.com/bizItem/201610/5491eb6a-8a7b-4621-89ad-f22e904b6e7f",
+            "bizName": "多点超市",
+            "bizType": 1,
+            "dataList": [{
+                "data": {
+                    "ad": "79元免运费  / 59元~79元仅2元运费",
+                    "erpStoreId": 10437,
+                    "imgUrl": "http://img.dmall.com/mIndex/201601/ccdad067-5c74-47e1-87fe-4c01d41e993b_750H",
+                    "logoUrl": "http://img.dmall.com/mIndex/201601/8d28b812-5e30-4c8a-a381-f2b54f54ba30_750H",
+                    "venderId": 1
+                },
+                "dataType": 5,
+                "imageUrl": "http://img.dmall.com/mIndex/201601/ccdad067-5c74-47e1-87fe-4c01d41e993b_750H",
+                "resource": "79元免运费  / 59元~79元仅2元运费",
+                "sort": 1,
+                "storeId": 10437,
+                "venderId": 1
+            }],
+            "displayType": 7,
+            "moduleType": 10,
+            "name": "昌平西关店",
+            "sort": 1,
+            "storeName": "昌平西关店",
+            "venderName": "北京物美"
+        },
+        {
+            "dataList": [{
+                "data": {
+                    "category": {
+                        "catId": -126,
+                        "catName": "多点下午茶"
+                    }
+                },
+                "dataType": 8,
+                "resource": "-126",
+                "sort": 1,
+                "storeId": 10437,
+                "venderId": 1
+            },
+            {
+                "data": {
+                    "category": {
+                        "catId": -127,
+                        "catName": "今晚下厨房"
+                    }
+                },
+                "dataType": 8,
+                "resource": "-127",
+                "sort": 2,
+                "storeId": 10437,
+                "venderId": 1
+            }],
+            "displayType": 8,
+            "moduleType": 11,
+            "name": "分类目录",
+            "sort": 1
+        }],
+        "rankList": [{
+            "key": "1",
+            "value": "智能排序"
+        },
+        {
+            "key": "2",
+            "value": "销量从高到低"
+        },
+        {
+            "key": "5",
+            "value": "销量从低到高"
+        },
+        {
+            "key": "3",
+            "value": "价格从高到低"
+        },
+        {
+            "key": "4",
+            "value": "价格从低到高"
+        }],
+        "versionId": 147
+    },
+    "errCode": "0000",
+    "errMsg": ""
+}

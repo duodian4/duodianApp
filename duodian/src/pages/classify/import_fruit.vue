@@ -6,7 +6,17 @@
 
 <script type="text/javascript">
 export default{
-	name:"import_fruit"
+	name:"import_fruit",
+	data(){
+		return {
+			data:[]
+		}
+	},
+	created(){
+		this.$http.get('api1').then(res => {
+			console.log(res.body.data);
+		})
+	}
 }
 </script>
 

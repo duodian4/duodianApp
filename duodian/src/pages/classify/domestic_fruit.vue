@@ -6,7 +6,19 @@
 
 <script type="text/javascript">
 export default{
-	name:"domestic_fruit"
+	name:"domestic_fruit",
+	data(){
+		return {
+			data:[]
+		}
+	},
+	created(){
+		this.$http.get('api').then(res => {
+			console.log(res.body.data);
+		},err => {
+			console.log(err);
+		})
+	}
 }
 </script>
 
