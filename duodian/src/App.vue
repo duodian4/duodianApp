@@ -36,5 +36,6 @@ export default {
 .bottomBar a{
     color: #fff;
     text-decoration: none;
+    font-size: 0.4rem;
 }
 </style>
