@@ -1,5 +1,5 @@
 <template>
-	<div id="domestic_fruit">
+	<!-- <div id="domestic_fruit">
 		<ul>
 			<li v-for="item in data">
 				<span @click="list_show()">{{item.catName}}</span>
@@ -10,7 +10,7 @@
 				</div>
 			</li>
 		</ul>
-	</div>
+	</div> -->
 </template>
 
 <script type="text/javascript">
@@ -32,19 +32,19 @@ export default{
 		})
 	},
 	methods:{
-		list_show(event){
-			event = event || window.event;
-			// this.childData = event.target.innerText;
-			console.log(this.childData);
-			if(this.childData == ''){
-				this.childData = event.target.innerText;
-			}else if(this.childData !=event.target.innerText){
-				this.childData = event.target.innerText;
-			}else{
-				this.childData = '';
-			}
+		// list_show(event){
+		// 	event = event || window.event;
+		// 	// this.childData = event.target.innerText;
+		// 	console.log(this.childData);
+		// 	if(this.childData == ''){
+		// 		this.childData = event.target.innerText;
+		// 	}else if(this.childData !=event.target.innerText){
+		// 		this.childData = event.target.innerText;
+		// 	}else{
+		// 		this.childData = '';
+		// 	}
 			
-		}
+		// }
 	}
 }
 </script>
