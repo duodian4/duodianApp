@@ -35,7 +35,23 @@
 			</div>
 		</div>
 		<div class="huitiao">
-			
+			<a href="#"><p></p><span>待支付</span></a>
+			<a href="#"><p></p><span>未完成</span></a>
+			<a href="#"><p></p><span>已完成</span></a>
+			<a href="#"><p></p><span>全部订单</span></a>
+		</div>
+		<div class="middle">
+			<a href="#">
+				<p></p>
+				<span>会员中心</span>
+			</a>
+			<a href="#"><p></p><span>会员中心</span></a>
+			<a href="#"><p></p><span>会员中心</span></a>
+			<a href="#"><p></p><span>会员中心</span></a>
+			<a href="#"><p></p><span>会员中心</span></a>
+			<a href="#"><p></p><span>会员中心</span></a>
+			<a href="#"><p></p><span>会员中心</span></a>
+			<a href="#"><p></p><span>会员中心</span></a>
 		</div>
 	</div>
 </template>
@@ -105,8 +121,9 @@ export default{
 		top: 0.275rem;
 	}
 	.saoma_img{
-		background:url(../../../static/img/sprt.png) 
-		17px -939px;
+		background:url(../../../static/img/sprt.png) no-repeat 22px -939px;
+		height: 50px;
+		width: 100%;
 	}
 	.saoma_zi{
 		text-align: center;
@@ -115,7 +132,98 @@ export default{
 	}
 	.huitiao{
 		height: 2.0rem;
-		border: 1px dashed green;
 		border-top: 10px solid #f0f0f0;
+		display: flex;
+		justify-content: space-around;
 	}
+	.huitiao a:nth-child(1){
+		background-position: 5px -670px;
+	}
+	.huitiao a:nth-child(2){
+		background-position: -57px -670px;
+	}
+	.huitiao a:nth-child(3){
+		background-position: -120px -670px;
+	}
+	.huitiao a:nth-child(4){
+		background-position: -183px -671px;
+	}
+	.huitiao a{
+		display: inline-block;
+		background-image:url("../../../static/img/sprt.png");
+		background-size: 500px auto;
+	}
+	.huitiao a p{
+		display: inline-block;
+		height: 58px;
+		width: 100%;
+		
+	}
+	.huitiao a span{
+		color: gray;
+	}
+	.middle{
+		display: flex;
+		width: 100%;
+		height: 150px;
+		flex-wrap: wrap;
+		text-align: center;
+		height: 2.0rem;
+		border-top: 10px solid #f0f0f0;
+		margin-top:15px;
+		padding-top: 18px;
+	}
+	.middle a{
+		display:block;
+		height: 75px;
+		width: 25%;
+	}
+	.middle a p{
+		display:block;
+		height: 30px;
+		width: 38px;
+		margin-left: 35px;
+		background-image:url("../../../static/img/sprt.png");
+		background-size: 500px auto;
+	}
+	.middle a:nth-child(1) p{
+		background-position:-5px -639px; 
+	}
+	.middle a:nth-child(2) p{
+		background-position:-66px -639px; 
+	}
+	.middle a:nth-child(3) p{
+		background-position:-129px -639px; 
+	}
+	.middle a:nth-child(4) p{
+		background-position:-190px -639px; 
+	}
+	.middle a:nth-child(5) p{
+		background-position:-254px -639px; 
+	}
+	.middle a:nth-child(6) p{
+		background-position:-316px -688px; 
+	}
+	.middle a:nth-child(7) p{
+		background-position:-250px -690px; 
+	}
+	.middle a:nth-child(8) p{
+		background-image:url(../../../static/img/icon-invite-friends.png); 
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		background-size: 35px 35px;
+	}
+	/*.middle a p{
+		display: inline-block;
+		width: 25%;
+		height: 68px;
+		display: inline-block;
+		background-image:url("../../../static/img/sprt.png");
+		background-size: 500px auto;
+	}*/
+	
+	.middle a span{
+		color:gray;
+	}
+	
 </style>
