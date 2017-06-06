@@ -35,24 +35,46 @@
 			</div>
 		</div>
 		<div class="huitiao">
-			<a href="#"><p></p><span>待支付</span></a>
+			<a href="#" ><p></p><span>待支付</span></a>
 			<a href="#"><p></p><span>未完成</span></a>
 			<a href="#"><p></p><span>已完成</span></a>
 			<a href="#"><p></p><span>全部订单</span></a>
 		</div>
 		<div class="middle">
-			<a href="#">
-				<p></p>
-				<span>会员中心</span>
-			</a>
-			<a href="#"><p></p><span>会员中心</span></a>
-			<a href="#"><p></p><span>会员中心</span></a>
-			<a href="#"><p></p><span>会员中心</span></a>
-			<a href="#"><p></p><span>会员中心</span></a>
-			<a href="#"><p></p><span>会员中心</span></a>
-			<a href="#"><p></p><span>会员中心</span></a>
-			<a href="#"><p></p><span>会员中心</span></a>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+			<router-link to="/huiyuan" tag="a">
+				<p></p><span>会员中心</span>
+			</router-link>
+
+				<!-- <a href="#"><p></p><span>收货地址</span></a>
+				<a href="#"><p></p><span>帮助中心</span></a>
+				<a href="#"><p></p><span>客服电话</span></a>
+				<a href="#"><p></p><span>体验APP</span></a>
+				<a href="#"><p></p><span>发展中心</span></a>
+				<a href="#"><p></p><span>绑卡</span></a>
+				<a href="#"><p></p><span>邀请</span></a> -->
 		</div>
+	
 	</div>
 </template>
 
@@ -117,7 +139,7 @@ export default{
 		width: 100px;
 		position: absolute;
 		right: 0.5rem;
-		top: 0.75rem;
+		top: 0.25rem;
 	}
 	.saoma_img{
 		background:url(../../../static/img/sprt.png) no-repeat 22px -939px;
