@@ -20,7 +20,8 @@ import import_fruit from '../pages/classify/import_fruit'
 
 // 5.定义路由规则
 const routes = [
-	{path:'',component:home},
+	{path:'',component:home,children:[{
+		path:'',component:duodianmarket}]},
 	{path:'/home',component:home,children:[
 		{path:'',component:duodianmarket},
 		{path:'duodianmarket',component:duodianmarket},
