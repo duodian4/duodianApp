@@ -32,6 +32,7 @@ export default {
     align-items: center;
     justify-content: space-around;
     background-color: rgba(0,0,0,0.5);
+    z-index: 100;
 }
 .bottomBar a{
     color: #fff;

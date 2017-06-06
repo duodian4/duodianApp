@@ -55,7 +55,7 @@ export default{
 		height: 150px;
 		position: relative;
 		width: 100%;
-		background:url(../../assets/mine-top-img.png) no-repeat;
+		background:url(../../../static/img/mine-top-img.png) no-repeat;
 		background-size: 100%;
 		color: white;
 	}
@@ -84,7 +84,7 @@ export default{
 		width: 100%;
 	}
 	.top1_top_img{
-		background:url(../../assets/mine-level-0.png) no-repeat;
+		background:url(../../../static/img/mine-level-0.png) no-repeat;
 		background-size: 0.625rem;
 		background-color: #333;
 		text-indent: 0.6rem;
@@ -105,7 +105,7 @@ export default{
 		top: 0.275rem;
 	}
 	.saoma_img{
-		background:url(../../assets/sprt.png) 
+		background:url(../../../static/img/sprt.png) 
 		17px -939px;
 	}
 	.saoma_zi{
