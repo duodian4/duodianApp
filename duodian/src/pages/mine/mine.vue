@@ -30,10 +30,20 @@
 		</div>
 		<div class="saoma">
 			<div class="saoma_img"></div>
+<<<<<<< HEAD
 			<div>
 				<span>会员专属码</span>
 			</div>
 		</div>
+=======
+			<div class="saoma_zi">
+				<span>会员专属码</span>
+			</div>
+		</div>
+		<div class="huitiao">
+			
+		</div>
+>>>>>>> ba08f7e50de9acc16366ae90ce5b2035a1219707
 	</div>
 </template>
 
@@ -52,7 +62,11 @@ export default{
 		height: 150px;
 		position: relative;
 		width: 100%;
+<<<<<<< HEAD
 		background:url(../../assets/mine-top-img.png) no-repeat;
+=======
+		background:url(../../../static/img/mine-top-img.png) no-repeat;
+>>>>>>> ba08f7e50de9acc16366ae90ce5b2035a1219707
 		background-size: 100%;
 		color: white;
 	}
@@ -81,7 +95,11 @@ export default{
 		width: 100%;
 	}
 	.top1_top_img{
+<<<<<<< HEAD
 		background:url(../../assets/mine-level-0.png) no-repeat;
+=======
+		background:url(../../../static/img/mine-level-0.png) no-repeat;
+>>>>>>> ba08f7e50de9acc16366ae90ce5b2035a1219707
 		background-size: 0.625rem;
 		background-color: #333;
 		text-indent: 0.6rem;
@@ -94,14 +112,36 @@ export default{
 		display: inline-block;
 	}
 	.saoma{
+<<<<<<< HEAD
 		border: 1px dashed green;
+=======
+	
+>>>>>>> ba08f7e50de9acc16366ae90ce5b2035a1219707
 		height: 1.45rem;
 		width: 100px;
 		position: absolute;
 		right: 0.5rem;
+<<<<<<< HEAD
 		top: 0.75rem;
 	}
 	.saoma_img{
 		background:url(../../assets/sprt.png);
+=======
+		top: 0.275rem;
+	}
+	.saoma_img{
+		background:url(../../../static/img/sprt.png) 
+		17px -939px;
+	}
+	.saoma_zi{
+		text-align: center;
+		color: white;
+		font-size: 14px;
+	}
+	.huitiao{
+		height: 2.0rem;
+		border: 1px dashed green;
+		border-top: 10px solid #f0f0f0;
+>>>>>>> ba08f7e50de9acc16366ae90ce5b2035a1219707
 	}
 </style>
