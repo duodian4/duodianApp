@@ -1,0 +1,768 @@
+{
+    "data": {
+        "list": [{
+            "img": "http://img.dmall.com/20170113/9087c272-9d70-4fcc-bb81-4f0297369eb0_360x360H",
+            "isTagPreSell": false,
+            "price": 100,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proActId": "",
+                        "proActLinkDesc": "",
+                        "proActUrl": "",
+                        "proLimitDesc": "",
+                        "proSlogan": "",
+                        "proTag": "特价"
+                    },
+                    "proId": 201705300000100,
+                    "proName": "华北物美档期特价促销5.31档",
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 150,
+                "originalPrice": 100,
+                "promotionDisplay": "特价",
+                "promotionPrice": 50,
+                "skuId": 100300968
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100300968,
+            "stock": 543,
+            "title": "康师傅优悦纯净水 380ml",
+            "venderId": 1,
+            "wareId": 10280492
+        },
+        {
+            "img": "http://img.dmall.com/20160806/49078c8d-9592-4830-8e96-b2bd0929dd8e_360x360H",
+            "isTagPreSell": false,
+            "price": 400,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proActId": "",
+                        "proActLinkDesc": "",
+                        "proActUrl": "",
+                        "proLimitDesc": "",
+                        "proSlogan": "",
+                        "proTag": "特价"
+                    },
+                    "proId": 201705300000050,
+                    "proName": "华北物美档期特价促销5.31档",
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 400,
+                "originalPrice": 400,
+                "promotionDisplay": "特价",
+                "promotionPrice": 168,
+                "skuId": 119450
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 119450,
+            "stock": 951,
+            "title": "雪花勇闯天涯迷彩听啤 330ml",
+            "venderId": 1,
+            "wareId": 119450
+        },
+        {
+            "img": "http://img.dmall.com/20170228/c8a0510f-c098-4e02-a51e-16e7ba867e8c_360x360H",
+            "isTagPreSell": false,
+            "price": 179,
+            "promotionInfo": {
+                "offPrice": 250,
+                "originalPrice": 179,
+                "promotionPrice": 179,
+                "skuId": 121997
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121997,
+            "stock": 2176,
+            "title": "伊利保鲜纯牛奶利乐枕 240ml",
+            "venderId": 1,
+            "wareId": 121997
+        },
+        {
+            "img": "http://img.dmall.com/20170228/a253ef21-ec63-4f59-9bf0-a796d8c5119b_360x360H",
+            "isTagPreSell": false,
+            "price": 300,
+            "promotionInfo": {
+                "offPrice": 300,
+                "originalPrice": 300,
+                "promotionPrice": 300,
+                "skuId": 122000
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 122000,
+            "stock": 1607,
+            "title": "三元超高温利乐砖牛奶 250ml",
+            "venderId": 1,
+            "wareId": 122000
+        },
+        {
+            "img": "http://img.dmall.com/20170220/2e84c89e-d119-412f-bba4-ac47e7c405b5_360x360H",
+            "isTagPreSell": false,
+            "price": 130,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 190,
+                "originalPrice": 130,
+                "promotionDisplay": "特价",
+                "promotionPrice": 130,
+                "skuId": 121251
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121251,
+            "stock": 89,
+            "title": "蒙牛百利包纯牛奶 200ml",
+            "venderId": 1,
+            "wareId": 121251
+        },
+        {
+            "img": "http://img.dmall.com/20160806/c6465f2d-c6c4-434e-a0aa-9f69d0e1bab7_360x360H",
+            "isTagPreSell": false,
+            "price": 100,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 250,
+                "originalPrice": 100,
+                "promotionDisplay": "特价",
+                "promotionPrice": 100,
+                "skuId": 100227964
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100227964,
+            "stock": 198,
+            "title": "百士菠萝听啤 320ml",
+            "venderId": 1,
+            "wareId": 10228474
+        },
+        {
+            "img": "http://img.dmall.com/20170402/0d4dc8cf-37af-4963-97c8-67684ce76896_360x360H",
+            "isTagPreSell": false,
+            "price": 210,
+            "promotionInfo": {
+                "offPrice": 248,
+                "originalPrice": 210,
+                "promotionPrice": 210,
+                "skuId": 122003
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 122003,
+            "stock": 342,
+            "title": "蒙牛纯牛奶利乐枕 240ml",
+            "venderId": 1,
+            "wareId": 122003
+        },
+        {
+            "img": "http://img.dmall.com/20170401/605dd443-b46b-458d-b2d7-b7d4d2af201e_360x360H",
+            "isTagPreSell": false,
+            "price": 140,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 160,
+                "originalPrice": 140,
+                "promotionDisplay": "特价",
+                "promotionPrice": 140,
+                "skuId": 121998
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121998,
+            "stock": 707,
+            "title": "伊利纯牛奶百利包 200ml",
+            "venderId": 1,
+            "wareId": 121998
+        },
+        {
+            "img": "http://img.dmall.com/20160804/1f7f149a-63e9-4934-88ae-b62d03bccbc1_360x360H",
+            "isTagPreSell": false,
+            "price": 140,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 180,
+                "originalPrice": 140,
+                "promotionDisplay": "特价",
+                "promotionPrice": 140,
+                "skuId": 121256
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121256,
+            "stock": 273,
+            "title": "蒙牛百利包早餐奶 麦香 200ml",
+            "venderId": 1,
+            "wareId": 121256
+        },
+        {
+            "img": "http://img.dmall.com/20170315/8c9bc4fd-1551-4b50-b30d-db508cca6210_360x360H",
+            "isTagPreSell": false,
+            "price": 280,
+            "promotionInfo": {
+                "offPrice": 280,
+                "originalPrice": 280,
+                "promotionPrice": 280,
+                "skuId": 105889
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 105889,
+            "stock": 307,
+            "title": "黄瓜 2根",
+            "venderId": 1,
+            "wareId": 105889
+        },
+        {
+            "img": "http://img.dmall.com/20170410/96c7f95b-dd48-4dc3-a9ac-07e615a15c4d_360x360H",
+            "isTagPreSell": false,
+            "price": 100,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 250,
+                "originalPrice": 100,
+                "promotionDisplay": "特价",
+                "promotionPrice": 100,
+                "skuId": 100324763
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100324763,
+            "stock": 1102,
+            "title": "百士水蜜桃啤 320ml",
+            "venderId": 1,
+            "wareId": 10304242
+        },
+        {
+            "img": "http://img.dmall.com/20170402/c5ac7814-7e84-4d1c-b102-d264efc1984e_360x360H",
+            "isTagPreSell": false,
+            "price": 260,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proActId": "",
+                        "proActLinkDesc": "",
+                        "proActUrl": "",
+                        "proLimitDesc": "",
+                        "proSlogan": "",
+                        "proTag": "特价"
+                    },
+                    "proId": 201705300000067,
+                    "proName": "华北物美档期特价促销5.31档",
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 260,
+                "originalPrice": 260,
+                "promotionDisplay": "特价",
+                "promotionPrice": 250,
+                "skuId": 119447
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 119447,
+            "stock": 4554,
+            "title": "燕京听啤 330ml",
+            "venderId": 1,
+            "wareId": 119447
+        },
+        {
+            "img": "http://img.dmall.com/20160809/e485a8f2-6b37-4fb5-940e-1da96f039707_360x360H",
+            "isTagPreSell": false,
+            "price": 215,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 290,
+                "originalPrice": 215,
+                "promotionDisplay": "特价",
+                "promotionPrice": 215,
+                "skuId": 121275
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121275,
+            "stock": 226,
+            "title": "三元特品纯牛奶利乐枕 227ml",
+            "venderId": 1,
+            "wareId": 121275
+        },
+        {
+            "img": "http://img.dmall.com/20170402/481412cf-bf67-4dff-92bc-7bf989764827_360x360H",
+            "isTagPreSell": false,
+            "price": 100,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proActId": "",
+                        "proActLinkDesc": "",
+                        "proActUrl": "",
+                        "proLimitDesc": "",
+                        "proSlogan": "",
+                        "proTag": "特价"
+                    },
+                    "proId": 201705300000103,
+                    "proName": "华北物美档期特价促销5.31档",
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 200,
+                "originalPrice": 100,
+                "promotionDisplay": "特价",
+                "promotionPrice": 99,
+                "skuId": 100228082
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100228082,
+            "stock": 1211,
+            "title": "娃哈哈饮用纯净水 550ml",
+            "venderId": 1,
+            "wareId": 10228592
+        },
+        {
+            "img": "http://img.dmall.com/20160806/266b105a-9f46-448e-802b-d420198dd3a6_360x360H",
+            "isTagPreSell": false,
+            "price": 200,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 680,
+                "originalPrice": 200,
+                "promotionDisplay": "特价",
+                "promotionPrice": 200,
+                "skuId": 100227967
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100227967,
+            "stock": 1152,
+            "title": "百士西雅特黑啤王听啤 500ml",
+            "venderId": 1,
+            "wareId": 10228477
+        },
+        {
+            "img": "http://img.dmall.com/20160114/3e5e7a12-de30-4111-b3b6-f4a948ea0f8c_360x360H",
+            "isTagPreSell": false,
+            "price": 220,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proActId": "",
+                        "proActLinkDesc": "",
+                        "proActUrl": "",
+                        "proLimitDesc": "",
+                        "proSlogan": "",
+                        "proTag": "特价"
+                    },
+                    "proId": 201705300000220,
+                    "proName": "华北物美档期特价促销5.31档",
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 220,
+                "originalPrice": 220,
+                "promotionDisplay": "特价",
+                "promotionPrice": 219,
+                "skuId": 121120
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121120,
+            "stock": 152,
+            "title": "三元特品鲜牛奶 243ml",
+            "venderId": 1,
+            "wareId": 121120
+        },
+        {
+            "img": "http://img.dmall.com/20170330/3f6269c1-9e7c-49c8-b2da-87d70cc847c1_360x360H",
+            "isTagPreSell": false,
+            "price": 1190,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 1590,
+                "originalPrice": 1190,
+                "promotionDisplay": "特价",
+                "promotionPrice": 1190,
+                "skuId": 120777
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 120777,
+            "stock": 194,
+            "title": "农夫山泉天然水量贩装 550ml*12",
+            "venderId": 1,
+            "wareId": 120777
+        },
+        {
+            "img": "http://img.dmall.com/20170220/8d00c164-9832-41c2-bdf0-8d13a7e910e1_360x360H",
+            "isTagPreSell": false,
+            "price": 1998,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proActId": "",
+                        "proActLinkDesc": "",
+                        "proActUrl": "",
+                        "proLimitDesc": "",
+                        "proSlogan": "",
+                        "proTag": "特价"
+                    },
+                    "proId": 201705310000546,
+                    "proName": "华北物美生鲜临时促销5.31档",
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 1998,
+                "originalPrice": 1998,
+                "promotionDisplay": "特价",
+                "promotionPrice": 1280,
+                "skuId": 109008
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 109008,
+            "stock": 995,
+            "title": "精品五花 500g",
+            "venderId": 1,
+            "wareId": 109008
+        },
+        {
+            "img": "http://img.dmall.com/20160407/5a14dd31-bddc-4f18-b5e7-020a262cddd5_360x360H",
+            "isTagPreSell": false,
+            "price": 188,
+            "promotionInfo": {
+                "offPrice": 188,
+                "originalPrice": 188,
+                "promotionPrice": 188,
+                "skuId": 102708
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 102708,
+            "stock": 33,
+            "title": "甜玉米 300g/根",
+            "venderId": 1,
+            "wareId": 102708
+        },
+        {
+            "img": "http://img.dmall.com/20161110/086a5442-5630-4255-861d-d14068ff4bb8_360x360H",
+            "isTagPreSell": false,
+            "price": 179,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 250,
+                "originalPrice": 179,
+                "promotionDisplay": "特价",
+                "promotionPrice": 179,
+                "skuId": 119470
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 119470,
+            "stock": 382,
+            "title": "青岛五星小瓶啤酒 330ml",
+            "venderId": 1,
+            "wareId": 119470
+        },
+        {
+            "img": "http://img.dmall.com/201503/b4b2460f-b553-44ac-8ee6-7e75ddcc395a_360x360H",
+            "isTagPreSell": false,
+            "price": 195,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 260,
+                "originalPrice": 195,
+                "promotionDisplay": "特价",
+                "promotionPrice": 195,
+                "skuId": 121266
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121266,
+            "stock": 695,
+            "title": "伊利高钙牛奶利乐枕 240ml",
+            "venderId": 1,
+            "wareId": 121266
+        },
+        {
+            "img": "http://img.dmall.com/20170424/0e43f273-d09b-448e-a6a3-56c20c419948_360x360H",
+            "isTagPreSell": false,
+            "price": 135,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 200,
+                "originalPrice": 135,
+                "promotionDisplay": "特价",
+                "promotionPrice": 135,
+                "skuId": 100301361
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100301361,
+            "stock": 339,
+            "title": "君乐宝红枣酸奶 150g",
+            "venderId": 1,
+            "wareId": 10280867
+        },
+        {
+            "img": "http://img.dmall.com/20170401/e09ab2d3-b941-4fe7-8a7b-6fb00df1a04c_360x360H",
+            "isTagPreSell": false,
+            "price": 680,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 880,
+                "originalPrice": 680,
+                "promotionDisplay": "特价",
+                "promotionPrice": 680,
+                "skuId": 120769
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 120769,
+            "stock": 654,
+            "title": "康师傅包装饮用水 550ML*12",
+            "venderId": 1,
+            "wareId": 120769
+        },
+        {
+            "img": "http://img.dmall.com/20170410/d9fae53c-70ca-443c-89ba-edc4788003a7_360x360H",
+            "isTagPreSell": false,
+            "price": 200,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 450,
+                "originalPrice": 200,
+                "promotionDisplay": "特价",
+                "promotionPrice": 200,
+                "skuId": 100324762
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100324762,
+            "stock": 7,
+            "title": "蓝带因特10度特制听啤 500ml",
+            "venderId": 1,
+            "wareId": 10304241
+        },
+        {
+            "img": "http://img.dmall.com/20170412/aa4949e9-fbf0-4f40-807d-c3781edd9da8_360x360H",
+            "isTagPreSell": false,
+            "price": 159,
+            "promotionInfo": {
+                "offPrice": 235,
+                "originalPrice": 159,
+                "promotionPrice": 159,
+                "skuId": 100326963
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100326963,
+            "stock": 115,
+            "title": "蒙牛利乐枕纯牛奶 200ml",
+            "venderId": 1,
+            "wareId": 10306442
+        },
+        {
+            "img": "http://img.dmall.com/20170314/a3ead3ba-91fb-4bea-8976-387a31c0caca_360x360H",
+            "isTagPreSell": false,
+            "price": 750,
+            "promotionInfo": {
+                "offPrice": 750,
+                "originalPrice": 750,
+                "promotionPrice": 750,
+                "skuId": 105890
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 105890,
+            "stock": 184,
+            "title": "西红柿 6粒",
+            "venderId": 1,
+            "wareId": 105890
+        },
+        {
+            "img": "http://img.dmall.com/20150725/d7a5f88c-8c8a-481e-82bc-f140c0a6d743_360x360H",
+            "isTagPreSell": false,
+            "price": 500,
+            "promotionInfo": {
+                "offPrice": 500,
+                "originalPrice": 500,
+                "promotionPrice": 500,
+                "skuId": 101881
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 101881,
+            "stock": 741,
+            "title": "土豆 6粒",
+            "venderId": 1,
+            "wareId": 101881
+        },
+        {
+            "img": "http://img.dmall.com/20160428/075bfbbf-9ba3-4f27-93b5-4bcc083c8947_360x360H",
+            "isTagPreSell": false,
+            "price": 200,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proTag": "特价"
+                    },
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 450,
+                "originalPrice": 200,
+                "promotionDisplay": "特价",
+                "promotionPrice": 200,
+                "skuId": 100227965
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100227965,
+            "stock": 565,
+            "title": "百士小麦王听啤 500ml",
+            "venderId": 1,
+            "wareId": 10228475
+        },
+        {
+            "img": "http://img.dmall.com/20170220/769adeb6-75ce-44a6-8a13-8cb9431c9983_360x360H",
+            "isTagPreSell": false,
+            "price": 140,
+            "promotionInfo": {
+                "matchedPros": [{
+                    "displayInfo": {
+                        "proActId": "",
+                        "proActLinkDesc": "",
+                        "proActUrl": "",
+                        "proLimitDesc": "",
+                        "proSlogan": "",
+                        "proTag": "特价"
+                    },
+                    "proId": 201705300000212,
+                    "proName": "华北物美档期特价促销5.31档",
+                    "proSubType": "SINGLE_SPECIAL_PRICE",
+                    "proType": "SINGLE"
+                }],
+                "offPrice": 140,
+                "originalPrice": 140,
+                "promotionDisplay": "特价",
+                "promotionPrice": 129,
+                "skuId": 121503
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 121503,
+            "stock": 2293,
+            "title": "君乐宝酸奶 原味 150g",
+            "venderId": 1,
+            "wareId": 121503
+        },
+        {
+            "img": "http://img.dmall.com/20170315/e7028fd6-4585-433a-96e8-bf81d6c0f3e1_360x360H",
+            "isTagPreSell": false,
+            "price": 300,
+            "promotionInfo": {
+                "offPrice": 300,
+                "originalPrice": 300,
+                "promotionPrice": 300,
+                "skuId": 100265313
+            },
+            "secondCat": 300101,
+            "shop": 10437,
+            "skuId": 100265313,
+            "stock": 3030,
+            "title": "中盐低钠岩盐 350g",
+            "venderId": 1,
+            "wareId": 10266315
+        }],
+        "page": {
+            "pageNum": 1,
+            "pageSize": 30,
+            "total": 195
+        }
+    },
+    "errCode": "0000",
+    "errMsg": ""
+}
