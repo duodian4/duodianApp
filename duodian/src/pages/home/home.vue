@@ -37,7 +37,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 /*----------头部----------*/
 .header{
 	width: 100%;

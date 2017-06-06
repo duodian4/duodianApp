@@ -10,7 +10,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 	#cart h1{
 		color: #000;
 		font-size: 100px;

@@ -10,7 +10,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 	#globalselect h1{
 		color: #333;
 		font-size: 0.35rem;
