@@ -16,18 +16,16 @@
 			<div class="menu">
 				<em class="line"></em>
 				<router-link to="/home/duodianmarket">									
-						多点超市
-						<img src="https://img.dmallcdn.com/bizItem/201612/c61ded35-a9f4-49a0-9fc3-193b6bafefec" alt="">				
+					多点超市
+					<img src="https://img.dmallcdn.com/bizItem/201612/c61ded35-a9f4-49a0-9fc3-193b6bafefec" alt="">				
 				</router-link>
 				<router-link to="/home/globalselect">				
-						全球精选
-						<img src="https://img.dmallcdn.com/bizItem/201705/7a3051ea-c095-418b-8f7f-d2f3ca587e5a" alt="">
+					全球精选
+					<img src="https://img.dmallcdn.com/bizItem/201705/7a3051ea-c095-418b-8f7f-d2f3ca587e5a" alt="">
 				</router-link>
 				<router-view></router-view>
-			</div>
-			
-		</div>
-		
+			</div>	
+		</div>		
 	</div>
 </template>
 
@@ -37,7 +35,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 /*----------头部----------*/
 .header{
 	width: 100%;
@@ -80,7 +78,6 @@ export default{
 	display: inline-block;
 	width: 0.75rem;
 	height: 0.75rem;
-	
 	background: url(https://static.dmall.com/kayak-project/kayak-lib/dist/kayak-lib/globalstyle/sprt.png?t=201702072136) no-repeat;
 	background-size: 10.0rem auto;
 	background-position: 0 -1.25rem;
