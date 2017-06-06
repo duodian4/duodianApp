@@ -30,9 +30,12 @@
 		</div>
 		<div class="saoma">
 			<div class="saoma_img"></div>
-			<div>
+			<div class="saoma_zi">
 				<span>会员专属码</span>
 			</div>
+		</div>
+		<div class="huitiao">
+			
 		</div>
 	</div>
 </template>
@@ -94,14 +97,25 @@ export default{
 		display: inline-block;
 	}
 	.saoma{
-		border: 1px dashed green;
+	
 		height: 1.45rem;
 		width: 100px;
 		position: absolute;
 		right: 0.5rem;
-		top: 0.75rem;
+		top: 0.275rem;
 	}
 	.saoma_img{
-		background:url(../../assets/sprt.png);
+		background:url(../../assets/sprt.png) 
+		17px -939px;
+	}
+	.saoma_zi{
+		text-align: center;
+		color: white;
+		font-size: 14px;
+	}
+	.huitiao{
+		height: 2.0rem;
+		border: 1px dashed green;
+		border-top: 10px solid #f0f0f0;
 	}
 </style>
