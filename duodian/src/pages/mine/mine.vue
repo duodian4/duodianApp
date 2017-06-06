@@ -113,12 +113,11 @@ export default{
 		display: inline-block;
 	}
 	.saoma{
-	
 		height: 1.45rem;
 		width: 100px;
 		position: absolute;
 		right: 0.5rem;
-		top: 0.275rem;
+		top: 0.75rem;
 	}
 	.saoma_img{
 		background:url(../../../static/img/sprt.png) no-repeat 22px -939px;
