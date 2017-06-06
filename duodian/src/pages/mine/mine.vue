@@ -48,11 +48,6 @@ export default{
 </script>
 
 <style scoped>
-<<<<<<< HEAD
-	#mine h1{
-		color: #000;
-		font-size: 100px;
-=======
 	#mine{
 		font-size: 16px;
 	}
@@ -122,6 +117,5 @@ export default{
 		height: 2.0rem;
 		border: 1px dashed green;
 		border-top: 10px solid #f0f0f0;
->>>>>>> 5c45038763670906ad0c3d2ec21cf4238af7cec8
 	}
 </style>
