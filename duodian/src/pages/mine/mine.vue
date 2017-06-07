@@ -9,64 +9,73 @@
 			</div>
 			<div class="top1_2">
 				<ul>
-					<li>
+					<router-link to='/myyue' tag='li'>
 						<span class="top1_2_1">0.00</span>
 						<span class="top1_2_2">余额</span>
-					</li>
-					<li>
+					</router-link>
+					<router-link to='/myjifeng' tag='li'>
 						<span class="top1_2_1">0.00</span>
 						<span class="top1_2_2">积分</span>
-					</li>
-					<li>
+					</router-link>
+					<router-link to='/mykabao' tag='li'>
 						<span class="top1_2_1">0.00</span>
 						<span class="top1_2_2">卡包</span>
-					</li>
-					<li>
+					</router-link>
+					<router-link to='/myyouhui' tag='li'>
 						<span class="top1_2_1">0.00</span>
 						<span class="top1_2_2">优惠券</span>
-					</li>
+					</router-link>
 				</ul>
 			</div>
 		</div>
-		<div class="saoma">
+		<div class="saoma" @click='flagm=true'>
 			<div class="saoma_img"></div>
 			<div class="saoma_zi">
 				<span>会员专属码</span>
 			</div>
 		</div>
 		<div class="huitiao">
-			<a href="#" ><p></p><span>待支付</span></a>
-			<a href="#"><p></p><span>未完成</span></a>
-			<a href="#"><p></p><span>已完成</span></a>
-			<a href="#"><p></p><span>全部订单</span></a>
+			<router-link to="/daizhifu_mine">
+				<p></p><span>待支付</span>
+			</router-link>
+			<router-link to="/weiwanc_mine">
+				<p></p><span>未完成</span>
+			</router-link>
+			<router-link to="/yiwanc_mine">
+				<p></p><span>已完成</span>
+			</router-link>
+			<router-link to="/quanbuding_mine">
+				<p></p><span>全部订单</span>
+			</router-link>
+				
 		</div>
 		<div class="middle">
 			<router-link to="/huiyuan" tag="a">
 				<p></p><span>会员中心</span>
 			</router-link>
-			<router-link to="/huiyuan" tag="a">
-				<p></p><span>会员中心</span>
+			<router-link to="/shouhua_mine" tag="a">
+				<p></p><span>收货地址</span>
 			</router-link>
-			<router-link to="/huiyuan" tag="a">
-				<p></p><span>会员中心</span>
+			<router-link to="/help_mine" tag="a">
+				<p></p><span>帮助中心</span>
 			</router-link>
-			<router-link to="/huiyuan" tag="a">
-				<p></p><span>会员中心</span>
+			<router-link to="/kefu_mine" tag="a">
+				<p></p><span>客服电话</span>
 			</router-link>
-			<router-link to="/huiyuan" tag="a">
-				<p></p><span>会员中心</span>
+			<router-link to="/tiyan_mine" tag="a">
+				<p></p><span>体验APP</span>
 			</router-link>
-			<router-link to="/huiyuan" tag="a">
-				<p></p><span>会员中心</span>
+			<router-link to="/fazhan_mine" tag="a">
+				<p></p><span>发展中心</span>
 			</router-link>
-			<router-link to="/huiyuan" tag="a">
-				<p></p><span>会员中心</span>
+			<router-link to="/bangka_mine" tag="a">
+				<p></p><span>绑卡</span>
 			</router-link>
-			<router-link to="/huiyuan" tag="a">
-				<p></p><span>会员中心</span>
+			<router-link to="/yaoqing_mine" tag="a">
+				<p></p><span>邀请</span>
 			</router-link>
 
-				<!-- <a href="#"><p></p><span>收货地址</span></a>
+<!-- 				<a href="#"><p></p><span>收货地址</span></a>
 				<a href="#"><p></p><span>帮助中心</span></a>
 				<a href="#"><p></p><span>客服电话</span></a>
 				<a href="#"><p></p><span>体验APP</span></a>
@@ -74,13 +83,27 @@
 				<a href="#"><p></p><span>绑卡</span></a>
 				<a href="#"><p></p><span>邀请</span></a> -->
 		</div>
-	
+		<div class="tanchuang_mine" v-bind:class="{showmine:flagm}">
+			
+			<div class="tanchuang_mine_1">
+				<img src="../../../static/img/98zhe.png">
+				<div class="tanchuang_mine_2"><p>接口找不到....So.....</p></div>
+				<a class="tanchuang_mine_3" href="http://app.dmall.com/m/?utm_campaign=Online-Channel&utm_term=dm010377777777&dmfrom=wx&from=wx"><span>下载App立享98折</span></a>
+			</div>
+			<div class="tanchuang_mine_close" @click="flagm=false" ></div>
+		</div>
+		<div class="mine_zhezhao" v-if='flagm'></div>
 	</div>
 </template>
 
 <script>
 export default{
-
+	data(){
+		return{
+			flagm:false
+		}
+	},
+	
 }
 
 </script>
@@ -246,5 +269,67 @@ export default{
 	.middle a span{
 		color:gray;
 	}
-	
+	.mine_zhezhao{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 0;top: 0;
+		background-color: #000;
+		opacity: .5;
+		z-index: 102;
+	}
+	.tanchuang_mine{
+		visibility: hidden;
+	}
+ 	.showmine{
+			/*display: block;*/
+		visibility: visible;
+	}
+	.tanchuang_mine_1{
+		height: 400px;
+		
+		position: absolute;
+		top: 130px;
+		left:8%;
+		right: 8%;
+		z-index: 109;
+		background-color: white;
+
+	}
+	.tanchuang_mine_2{
+		text-indent: 10%;
+	}
+	.tanchuang_mine_3{
+		position: absolute;
+		left: 10%;
+		bottom: 10%;
+		height: 44px;
+		width: 80%;
+		text-align: center;
+		line-height: 44px;
+		background-color: #ff6800;
+	}
+	.tanchuang_mine_3 span{
+		color: white;
+	}
+	.tanchuang_mine_1 img{
+		height: 3.75rem;
+		width: 3.75rem;
+		margin-left: 28%;
+		margin-top: 5%;
+	}
+	.tanchuang_mine_close{
+		background-position: -62px -374px;
+	}
+	.tanchuang_mine_close{
+		height: 50px;
+		width: 50px;
+		background-image: url(../../../static/img/sprt.png);
+		background-repeat: no-repeat;
+		background-size: 500px auto;
+		position: absolute;
+		top:72% ;
+		left: 42%;
+		z-index: 110;
+		}
 </style>
