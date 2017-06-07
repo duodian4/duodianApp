@@ -17,6 +17,7 @@ import duodianmarket from '../pages/home/duodianmarket'
 import globalselect from '../pages/home/globalselect'
 import domestic_fruit from '../pages/classify/domestic_fruit'
 import import_fruit from '../pages/classify/import_fruit'
+<<<<<<< HEAD
 import huiyuan from '../components/huiyuan'//我的会员页
 import myyue from '../components/myyue'//我的余额 
 import myjifeng from '../components/myjifeng'//我的积分
@@ -44,6 +45,9 @@ import yaoqing_mine from '../components/yaoqing_mine'//见名知意
 
 
 
+=======
+import download from '../pages/member/download'
+>>>>>>> f84eace6a62e8b288cb93fb0393bd5c2aa7d6f2f
 
 // 5.定义路由规则
 const routes = [
@@ -62,6 +66,7 @@ const routes = [
 	{path:'/member',component:member},
 	{path:'/cart',component:cart},
 	{path:'/mine',component:mine},
+<<<<<<< HEAD
 	{path:'/huiyuan',component:huiyuan},
 	{path:'/myyue',component:myyue},
 	{path:'/myjifeng',component:myjifeng},
@@ -124,6 +129,9 @@ const routes = [
 	]}
 
 	
+=======
+	{path:'/download',component:download}
+>>>>>>> f84eace6a62e8b288cb93fb0393bd5c2aa7d6f2f
 ]
 
 // 6.创建路由对象
