@@ -92,7 +92,7 @@
 				<li class="item disabled">
 					<a href="#" class="box J_Link J_clickTrace">
 						<i class="vip-icon">
-							<img src="../../assets/more-rights.png">
+							<img src="../../../static/imghuiyuan/more-rights.png">
 							<p>全部权益</p>
 						</i>
 					</a>
@@ -117,9 +117,9 @@
 			</a>
 		</div>
 		<router-link to="/download" tag="div" class="picture">
-			<img src="../../assets/680e314b-349b-4d74-b5f0-bbee270fb1ff.png">
-			<img src="../../assets/33806e8c-a7ee-47e6-a901-1fd65e2bd562.png">
-			<img src="../../assets/1e202cc5-017a-4ee3-9ffa-7503a42f4494.png">
+			<img src="../../../static/imghuiyuan/680e314b-349b-4d74-b5f0-bbee270fb1ff.png">
+			<img src="../../../static/imghuiyuan/33806e8c-a7ee-47e6-a901-1fd65e2bd562.png">
+			<img src="../../../static/imghuiyuan/1e202cc5-017a-4ee3-9ffa-7503a42f4494.png">
 		</router-link>
 		<!-- <div class="picture">
 			
@@ -128,7 +128,7 @@
 			<div class="J_ModalCont pop" style="margin-top:-5.825rem;margin-eft:-4.025rem">
 				<div class="contet">
 					<i class="icon-close-barcode">
-						<img src="../../assets/bd5b7152-668b-44ba-a403-969902f4e213.png">
+						<img src="../../../static/imghuiyuan/bd5b7152-668b-44ba-a403-969902f4e213.png">
 					</i>
 					<p>对不起 TT-TT
 					<br>
@@ -162,8 +162,7 @@ export default{
 }
 </script>
 
-<<<<<<< HEAD
-<style>
+<style scoped>
 *{
 	margin: 0;
 	padding: 0;
@@ -240,7 +239,7 @@ a,input,button,textarea,fieldset,ul,span{
 }
 #member .icon{
 	display: inline-block;
-	background: url(../../assets/sprt.png) no-repeat -1.25rem 0;
+	background: url(../../../static/imghuiyuan/sprt.png) no-repeat -1.25rem 0;
 	background-size: 5.0rem auto;
 }
 #member .float-label span{
@@ -547,11 +546,3 @@ img{
 	display: inherit;
 	border-image: none;
 }
-=======
-<style scoped>
-	#member h1{
-		color: #000;
-		font-size: 100px;
-	}
->>>>>>> 38ebfe56652e23a57b9b2231c2ec564218549765
-</style>

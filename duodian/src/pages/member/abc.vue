@@ -85,7 +85,7 @@ span{
 }
 .centre .icon{
 	display: inline-block;
-	background: url(../../assets/sprt.png) no-repeat -50px 0;
+	background: url(../../../static/imghuiyuan/sprt.png) no-repeat -50px 0;
 	background-size: 200px auto;
 }
 #member .i-offline-active{
