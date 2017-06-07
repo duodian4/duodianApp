@@ -5,6 +5,10 @@ import App from './App'
 
 // 将路由引入到router变量中
 import router from './router'
+//引入vue-resource
+import VueResource from 'vue-resource'
+//全局安装
+Vue.use(VueResource)
 
 Vue.config.productionTip = false
 

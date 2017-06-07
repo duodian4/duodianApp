@@ -6,11 +6,22 @@
 
 <script type="text/javascript">
 export default{
-	name:"import_fruit"
+	name:"import_fruit",
+	data(){
+		return {
+			data:[]
+		}
+	},
+	created(){
+		this.$http.get('../static/data/classify.json').then(res => {
+			console.log(res);
+			
+		})
+	}
 }
 </script>
 
-<style>
+<style scoped>
 	#import_fruit h1{
 		color: #ccc;
 		font-size: 50px;

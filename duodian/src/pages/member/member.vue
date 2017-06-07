@@ -162,6 +162,7 @@ export default{
 }
 </script>
 
+<<<<<<< HEAD
 <style>
 *{
 	margin: 0;
@@ -546,4 +547,11 @@ img{
 	display: inherit;
 	border-image: none;
 }
+=======
+<style scoped>
+	#member h1{
+		color: #000;
+		font-size: 100px;
+	}
+>>>>>>> 38ebfe56652e23a57b9b2231c2ec564218549765
 </style>
