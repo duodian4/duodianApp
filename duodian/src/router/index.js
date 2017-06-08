@@ -41,8 +41,10 @@ import fazhan_mine from '../components/fazhan_mine'
 import bangka_mine from '../components/bangka_mine'
 import yaoqing_mine from '../components/yaoqing_mine'//见名知意
 
+import download from '../pages/member/download'
 
 
+<<<<<<< HEAD
 import equity from '../pages/member/equity'//会员权益
 import activity from '../pages/member/activity'//结束活动
 import download from '../pages/member/download'//下载App
@@ -51,6 +53,9 @@ import special from '../pages/member/special'//物美特惠
 import purchase from '../pages/member/purchase'//积分加价购
 import birthday from '../pages/member/birthday'//生日特惠
 import complete from '../pages/member/complete'//我的全部权益
+=======
+
+>>>>>>> 23677b9bdda2862ff2bcfd79e6df45e48ccb5c80
 
 // 5.定义路由规则
 const routes = [
@@ -129,6 +134,7 @@ const routes = [
 	{path:'/quanbu_mine',component:quanbuding_mine,children:[
 			{path:'',component:quanbu_mine}
 	]},
+<<<<<<< HEAD
 
 	{path:'/download',component:download},
 	{path:'/integral',component:integral},
@@ -138,6 +144,9 @@ const routes = [
 	{path:'/purchase',component:purchase},
 	{path:'/birthday',component:birthday},
 	{path:'/complete',component:complete}
+=======
+	{path:'/download',component:download}
+>>>>>>> 23677b9bdda2862ff2bcfd79e6df45e48ccb5c80
 ]
 
 // 6.创建路由对象
