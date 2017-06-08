@@ -5,12 +5,13 @@
 			<h3 class="text">{{msg}}</h3>
 			<div class="half-enter row clearfix">
 				<span class="item col-6">
-					<span class="wrap J_MemberCenter J_ClickTrace">
+					<router-link to="../../huiyuan" tag="span" class="wrap J_MemberCenter J_ClickTrace">
 						<i class="icon i-member-center"></i>
 						<p>会员中心</p>
-					</span>
+					</router-link>
 				</span>
-				<span class="item col-6" >
+				<span class="item col-6">
+					
 					<span class="wrap J_OfflineActive J_ClickTrce">
 						<em class="float-label">
 							<span>立享优惠</span>
@@ -18,46 +19,47 @@
 						<i class="icon i-offline-active"></i>
 						<p>会员专属码</p>
 					</span>
+					
 				</span>
 			</div>
 			<div class="quarter-enter">
 				<ul class="row clearfix">
 					<li class="item col-3 border-1px border-r">
-						<div class="J_BalancePage box J_ClickTrace">
+						<router-link to="../../myyue" tag="div" class="J_BalancePage box J_ClickTrace">
 							<em>
 								<i>￥</i>0.00
 							</em>
 							<p>余额</p>
-						</div>
+						</router-link>
 					</li>
 					<li class="item col-3 border-1px border-r ">
-						<div class="J_BonusPoints box J_ClickTrace">
+						<router-link to="../../myjifeng" tag="div" class="J_BonusPoints box J_ClickTrace">
 							<em>
 								0
 							</em>
 							<p>积分</p>
-						</div>
+						</router-link>
 					</li>
 					<li class="item col-3 border-1px border-r ">
-						<div class="box J_ClickTrace">
+						<router-link to="../../myyue" tag="div" class="box J_ClickTrace">
 							<em>
 								0
 							</em>
 							<p>成长值</p>
-						</div>
+						</router-link>
 					</li>
 					<li class="item col-3 border-1px border-r ">
-						<div class="J_CouponPage box J_ClickTrace">
+						<router-link to="../../myyouhui" tag="div" class="J_CouponPage box J_ClickTrace">
 							<em>
 								0
 							</em>
 							<p>优惠券</p>
-						</div>
+						</router-link>
 					</li>
 				</ul>
 			</div>
 			<ul class="rights-enter clearfix">
-				<li class="item disabled">
+				<router-link to="/equity" tag="li" class="item disabled">
 					<a href="#" class="box J_Link J_clickTrace">
 						<i class="vip-icon">
 							<img src="http://wumart.b0.upaiyun.com/new_user_enable.png">
@@ -65,68 +67,75 @@
 						</i>
 					</a>
 				</li>
-				<li class="item disabled">
+				</router-link>
+				<router-link to="/special" tag="li" class="item disabled">
 					<a href="#" class="box J_Link J_clickTrace">
 						<i class="vip-icon">
 							<img src="http://wumart.b0.upaiyun.com/wumart_enable.png">
 							<p>物美特惠</p>
 						</i>
 					</a>
-				</li>
-				<li class="item disabled">
+				</router-link>
+				<router-link to="/purchase" tag="li"  class="item disabled">
 					<a href="#" class="box J_Link J_clickTrace">
 						<i class="vip-icon">
 							<img src="http://wumart.b0.upaiyun.com/point_promotion_enable_icon@3x.png">
 							<p>积分加购价</p>
 						</i>
 					</a>
-				</li>
-				<li class="item disabled">
+				</router-link>
+				<router-link to="/birthday" tag="li" class="item disabled">
 					<a href="#" class="box J_Link J_clickTrace">
 						<i class="vip-icon">
 							<img src="http://wumart.b0.upaiyun.com/birthday_enable.png">
 							<p>生日特权</p>
 						</i>
 					</a>
-				</li>
-				<li class="item disabled">
+				</router-link>
+				<router-link to="/complete" tag="li" class="item disabled">
 					<a href="#" class="box J_Link J_clickTrace">
 						<i class="vip-icon">
 							<img src="../../../static/imghuiyuan/more-rights.png">
 							<p>全部权益</p>
 						</i>
 					</a>
-				</li>
+				</router-link>
 			</ul>
 		</div>
 		<div class="notice border-1px border-t">
 			<h4 class="head-title">
 				<i class="icon i-notice"></i>
 			</h4>
-			<div id="noticeMsgBar" class="list border-1px border-l">
+			<router-link to="/activity" tag="div" class="list border-1px border-l">
+			<!-- <div id="noticeMsgBar" class="list border-1px border-l"> -->
 				<ul>
 					<li>
 						<a href="#" class="J_Link ellips J_ClickTrace">物美会员升级，点击了解更多升级福利！</a>
 					</li>
 				</ul>
-			</div>
+			<!-- </div> -->
+			</router-link>
 		</div>
+		<!-- <router-link to="/integral" tag="span" class="J_Link J_ClickTrace"></router-link> -->
 		<div class="J_FloatEntrance float-entrance">
-			<a href="#" class="J_Link J_ClickTrace">
+			<router-link to="/integral" tag="span" class="J_Link J_ClickTrace">
 				<img src="http://img.dmall.com/common/1a0cb91b-f2c4-4d90-87f0-7176f01b8ece">
-			</a>
+			</router-link>
 		</div>
-		<router-link to="/download" tag="div" class="picture">
-			<img src="../../../static/imghuiyuan/680e314b-349b-4d74-b5f0-bbee270fb1ff.png">
-			<img src="../../../static/imghuiyuan/33806e8c-a7ee-47e6-a901-1fd65e2bd562.png">
-			<img src="../../../static/imghuiyuan/1e202cc5-017a-4ee3-9ffa-7503a42f4494.png">
-		</router-link>
-		<!-- <div class="picture">
+	<!-- 	<router-link to="/download" tag="div" class="picture">
 			
-		</div> -->
+		</router-link> -->
+		<div class="picture">
+				<img src="../../../static/imghuiyuan/680e314b-349b-4d74-b5f0-bbee270fb1ff.png">
+			<router-link to="/download" tag="span" class="pspan">
+				<img src="../../../static/imghuiyuan/33806e8c-a7ee-47e6-a901-1fd65e2bd562.png">
+			</router-link>
+				<img src="../../../static/imghuiyuan/1e202cc5-017a-4ee3-9ffa-7503a42f4494.png">
+		</div>
 		<div class="J_ModalUi ui-modal">
 			<div class="J_ModalCont pop" style="margin-top:-5.825rem;margin-eft:-4.025rem">
-				<div class="contet">
+				<div id="back"></div>
+				<div class="contet" id="from">
 					<i class="icon-close-barcode">
 						<img src="../../../static/imghuiyuan/bd5b7152-668b-44ba-a403-969902f4e213.png">
 					</i>
@@ -159,18 +168,13 @@ export default{
 			msg:"Hello ,普通会员"
 		}
 	}
+	
 }
 </script>
 
 <style scoped>
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-*,*:before,**:after{
-	box-sizing:inherti;
-}
+
+
 #member{
 	width:100%;
 	
@@ -537,12 +541,14 @@ img{
 	height: 1.625rem;
 	z-index: 1103;
 }
-#member .float-entrance a{
+#member .float-entrance span{
 	display: inherit;
 	width: 100%
 }
-#member .float-entrance a img{
+#member .float-entrance span img{
 	width: 100%;
 	display: inherit;
 	border-image: none;
 }
+
+</style>

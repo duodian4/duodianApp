@@ -43,10 +43,14 @@ import yaoqing_mine from '../components/yaoqing_mine'//见名知意
 
 
 
-
-
-import download from '../pages/member/download'
-
+import equity from '../pages/member/equity'//会员权益
+import activity from '../pages/member/activity'//结束活动
+import download from '../pages/member/download'//下载App
+import integral from '../pages/member/integral'//签到积分
+import special from '../pages/member/special'//物美特惠
+import purchase from '../pages/member/purchase'//积分加价购
+import birthday from '../pages/member/birthday'//生日特惠
+import complete from '../pages/member/complete'//我的全部权益
 
 // 5.定义路由规则
 const routes = [
@@ -126,8 +130,14 @@ const routes = [
 			{path:'',component:quanbu_mine}
 	]},
 
-	
-	{path:'/download',component:download}
+	{path:'/download',component:download},
+	{path:'/integral',component:integral},
+	{path:'/activity',component:activity},
+	{path:'/equity',component:equity},
+	{path:'/special',component:special},
+	{path:'/purchase',component:purchase},
+	{path:'/birthday',component:birthday},
+	{path:'/complete',component:complete}
 ]
 
 // 6.创建路由对象
