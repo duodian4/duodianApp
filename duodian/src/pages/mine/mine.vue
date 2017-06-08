@@ -89,8 +89,9 @@
 				<img src="../../../static/img/98zhe.png">
 				<div class="tanchuang_mine_2"><p>接口找不到....So.....</p></div>
 				<a class="tanchuang_mine_3" href="http://app.dmall.com/m/?utm_campaign=Online-Channel&utm_term=dm010377777777&dmfrom=wx&from=wx"><span>下载App立享98折</span></a>
+				<div class="tanchuang_mine_close" @click="flagm=false" ></div>
 			</div>
-			<div class="tanchuang_mine_close" @click="flagm=false" ></div>
+			
 		</div>
 		<div class="mine_zhezhao" v-if='flagm'></div>
 	</div>
@@ -328,7 +329,7 @@ export default{
 		background-repeat: no-repeat;
 		background-size: 500px auto;
 		position: absolute;
-		top:72% ;
+		top:100% ;
 		left: 42%;
 		z-index: 110;
 		}

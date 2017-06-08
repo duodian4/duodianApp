@@ -10,7 +10,7 @@ Vue.use(VueRouter)
 // 4.引入组件
 import home from '../pages/home/home'
 import classify from '../pages/classify/classify'
-// import member from '../pages/member/member'
+import member from '../pages/member/member'
 import cart from '../pages/cart/cart'
 import mine from '../pages/mine/mine'
 import duodianmarket from '../pages/home/duodianmarket'
@@ -41,7 +41,7 @@ import fazhan_mine from '../components/fazhan_mine'
 import bangka_mine from '../components/bangka_mine'
 import yaoqing_mine from '../components/yaoqing_mine'//见名知意
 
-
+import download from '../pages/member/download'
 
 
 
@@ -123,8 +123,7 @@ const routes = [
 	{path:'/quanbu_mine',component:quanbuding_mine,children:[
 			{path:'',component:quanbu_mine}
 	]},
-
-
+	{path:'/download',component:download}
 ]
 
 // 6.创建路由对象
