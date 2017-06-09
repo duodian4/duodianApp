@@ -144,11 +144,7 @@ const routes = [
 	{path:'/quanbu_mine',component:quanbuding_mine,children:[
 			{path:'',component:quanbu_mine}
 	]},
-<<<<<<< HEAD
-=======
 
-
->>>>>>> ff8047619953fbcf9f36672957bcc3e2d6a0ac78
 	{path:'/download',component:download},
 	{path:'/integral',component:integral},
 	{path:'/activity',component:activity},
@@ -157,10 +153,7 @@ const routes = [
 	{path:'/purchase',component:purchase},
 	{path:'/birthday',component:birthday},
 	{path:'/complete',component:complete}
-<<<<<<< HEAD
-=======
 
->>>>>>> ff8047619953fbcf9f36672957bcc3e2d6a0ac78
 ]
 
 // 6.创建路由对象

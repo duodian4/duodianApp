@@ -30,10 +30,7 @@ export default{
 </script>
 
 <style>
-<<<<<<< HEAD
-=======
 
->>>>>>> ff8047619953fbcf9f36672957bcc3e2d6a0ac78
  #integral{
  	width: 100%;
  	height: 100%;
@@ -127,8 +124,5 @@ export default{
 	line-height: 0.45rem;
 	width: 0.5rem;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> ff8047619953fbcf9f36672957bcc3e2d6a0ac78
 </style>

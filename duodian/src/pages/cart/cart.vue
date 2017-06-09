@@ -33,9 +33,9 @@
 					</p>
 				</div>
 				<div class="pro">
-					<i class="add_b"></i>
-					<span>21</span>
 					<i class="reduce_r"></i>
+					<span>{{this.$store.state.money.toFixed(2)}}</span>
+					<i class="add_b"></i>
 				</div>
 			</li>
 		</ul>
@@ -58,7 +58,11 @@
 
 <script>
 export default{
-
+	data(){
+		return {
+			data:[]
+		}
+	}
 }
 </script>
 
