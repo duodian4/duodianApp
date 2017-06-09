@@ -33,9 +33,9 @@
 					</p>
 				</div>
 				<div class="pro">
-					<i class="add_b"></i>
-					<span>21</span>
 					<i class="reduce_r"></i>
+					<span>21</span>
+					<i class="add_b"></i>
 				</div>
 			</li>
 		</ul>
@@ -83,7 +83,7 @@ export default{
 	text-align: center;
 	background-color: #fff;
 	font-size: 16px;
-	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	box-shadow: 0 0 0.25rem rgba(0,0,0,.2);
 }
 #cart .container{
 	width: 100%;
@@ -92,7 +92,7 @@ export default{
 	background-color: #f0f0f0;
 }
 #cart .address{
-	padding: 10px 25px 10px 10px;
+	padding: 0.25rem 0.625rem 0.25rem 0.25rem;
 	background-color: #fff;
 	background-image: url(https://static.dmall.com/kayak-project/cart/dist/cart/common/image/shoppingline.png);
     background-repeat: repeat-x;
@@ -134,8 +134,8 @@ export default{
 	font-size: 14px;
     font-weight: 400;
     color: grey;
-    padding-left: 40px;
-    padding-right: 30px;
+    padding-left: 1.0rem;
+    padding-right: 0.75rem;
     position: relative;
     border-bottom: 1px solid #f0f0f0;
 }
@@ -153,18 +153,18 @@ export default{
 	height: 0.75rem;
 	background-image: url(https://static.dmall.com/kayak-project/kayak-lib/dist/kayak-lib/globalstyle/sprt.png?t=201702072136);
     background-repeat: no-repeat;
-    background-size: 400px auto;  
+    background-size: 10.0rem auto;  
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -15px;
-    margin-top: -15px;
+    margin-left: -0.375rem;
+    margin-top: -0.375rem;
 }
 #cart .btn i:first-child{
-	background-position: -250px -150px;
+	background-position: -6.25rem -3.75rem;
 }
 #cart .btn i:last-child{
-	background-position: -200px -150px;
+	background-position: -5.0rem -3.75rem;
 	display: none;
 }
 #cart .gotoB{
@@ -173,13 +173,13 @@ export default{
 	top: 0.375rem;
 }
 #cart .info{
-	padding: 10px 110px 10px 0;
-	height: 51px;
+	padding: 0.25rem 2.75rem 0.25rem 0;
+	height: 1.275rem;
 }
 #cart .goods li{
 	background-color: #fff;
 	position: relative;
-	padding-left: 40px;
+	padding-left: 1.0rem;
 	overflow: hidden;
 	border-bottom: 1px solid #f0f0f0;
 }
@@ -189,7 +189,7 @@ export default{
     max-width: 100%;
 }
 #cart .produce_price{
-	margin-top: 5px;
+	margin-top: 0.125rem;
 	font-size: 16px;
 }
 #cart .pro{
@@ -205,16 +205,16 @@ export default{
 	background-image: url(https://static.dmall.com/kayak-project/kayak-lib/dist/kayak-lib/globalstyle/sprt.png?t=201702072136);
     background-repeat: no-repeat;
     background-size: 400px auto;  
-    width: 30px;
-    height: 30px;    
-}
-#cart .add_b{
-	background-position: 0 -400px;
-	float: left;
+    width: 0.75rem;
+    height: 0.75rem;    
 }
 #cart .reduce_r{
-	background-position: -150px -150px;
-	float: right;
+	background-position: 0 -10.0rem;
+	float: left;
+}
+#cart .add_b{
+	background-position: -3.75rem -3.75rem;
+	float: left;
 }
 #cart .pro span{
 	display: inline-block;
@@ -227,13 +227,13 @@ export default{
 }
 #cart .close{
 	background-color: #fff;
-	padding: 10px;
+	padding: 0.25rem;
 	position: relative;
 }
 #cart .total{
 	font-size: 14px;
 	color: #ff712b;
-	margin-bottom: 5px;
+	margin-bottom: 0.125rem;
 }
 #cart .total i{
 	font-style: normal;
@@ -254,10 +254,10 @@ export default{
 	background: #ff712b;
 	font-size: 14px;
 	padding: 0 0.55rem;
-	border-radius: 4px;
+	border-radius: 0.1rem;
 	position: absolute;
-	right: 10px;
+	right: 0.25rem;
 	top: 50%;
-	margin-top: -20px;
+	margin-top: -0.5rem;
 }
 </style>
