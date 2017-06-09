@@ -12,7 +12,7 @@
 				</span>
 				<span class="item col-6">
 					
-					<span class="wrap J_OfflineActive J_ClickTrce">
+					<span class="wrap J_OfflineActive J_ClickTrce" @click="flagB=true">
 						<em class="float-label">
 							<span>立享优惠</span>
 						</em>
@@ -22,6 +22,9 @@
 					
 				</span>
 			</div>
+
+			
+
 			<div class="quarter-enter">
 				<ul class="row clearfix">
 					<li class="item col-3 border-1px border-r">
@@ -132,7 +135,7 @@
 			</router-link>
 				<img src="../../../static/imghuiyuan/1e202cc5-017a-4ee3-9ffa-7503a42f4494.png">
 		</div>
-		<div class="J_ModalUi ui-modal">
+		<!-- <div class="J_ModalUi ui-modal">
 			<div class="J_ModalCont pop" style="margin-top:-5.825rem;margin-eft:-4.025rem">
 				<div id="back"></div>
 				<div class="contet" id="from">
@@ -155,7 +158,28 @@
 				</div>
 				<div class="J_Mask mask"></div>
 			</div>
+		</div> -->
+		<div class="tanchuang_mine" v-bind:class="{showmine:flagB}">
+				
+			<div class="tanchuang_mine_1">
+				<img src="../../../static/img/98zhe.png">
+				<div class="tanchuang_mine_2">
+					<p>对不起 TT-TT
+					<br>
+					我们暂时关闭了微信商城的扫码功能.
+					</p>
+					<p>
+						 因为，我们决定玩个大的！！！
+						 <br>
+						 即日起，新同学用“多点app”首次扫码立享98折哦！老朋友用“多点app”线下扫码 享随机折扣 最高免单！！！
+					</p>
+				</div>
+				<a class="tanchuang_mine_3" href="http://app.dmall.com/m/?utm_campaign=Online-Channel&utm_term=dm010377777777&dmfrom=wx&from=wx"><span>下载App立享98折</span></a>
+				<div class="tanchuang_mine_close" @click="flagB=false" ></div>
+			</div>
+				
 		</div>
+		<div class="mine_zhezhao" v-if='flagB'></div>
 	</div>
 	
 
@@ -165,7 +189,8 @@
 export default{
 	data(){
 		return{
-			msg:"Hello ,普通会员"
+			msg:"Hello ,普通会员",
+			flagB:false
 		}
 	}
 	
@@ -173,6 +198,8 @@ export default{
 </script>
 
 <style scoped>
+
+
 
 
 #member{
@@ -240,6 +267,11 @@ a,input,button,textarea,fieldset,ul,span{
 #member .i-member-center,#member .i-offline-active{
 	width: 40px;
 	height: 40px;
+}
+#member .i-offline-active{
+	margin-top: 0.175rem;
+	margin-left: -0.35rem;
+	margin-bottom: -0.2rem;
 }
 #member .icon{
 	display: inline-block;
@@ -449,13 +481,13 @@ img{
 	width: 100%;
 
 }
-#member .ui-modal{
+/*#member .ui-modal{
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/*z-index: 11032;*/
+	z-index: 11032;
 	z-index: -1;
 }
 #member .ui-modal .pop{
@@ -532,7 +564,7 @@ img{
 	background-color: #000;
 	z-index: 11031;
 	opacity: 0.5;
-}
+}*/
 #member .float-entrance{
 	position: fixed;
 	right: 0.375rem;
@@ -550,5 +582,78 @@ img{
 	display: inherit;
 	border-image: none;
 }
+/*//弹窗*/
+#member .mine_zhezhao{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 0;top: 0;
+		background-color: #000;
+		opacity: .5;
+		z-index: 102;
+	}
+	.tanchuang_mine{
+		display: none;
+		/*visibility: hidden;*/
+	}
+ 	.showmine{
+			/*display: block;*/
+		display: block;
+		/*visibility: visible;*/
+		visibility: 
+	}
+	.tanchuang_mine_1{
+		height: 400px;
+		
+		position: absolute;
+		top: 3.25rem;
+		left:8%;
+		right: 8%;
+		z-index: 109;
+		background-color: white;
 
+	}
+	.tanchuang_mine_2{
+		padding-left: 7%;
+	}
+	.tanchuang_mine_2 p{
+		text-align: left;
+		color: #21292b;
+		font-size: 14px;
+		line-height: 1.6;
+	}
+	.tanchuang_mine_3{
+		position: absolute;
+		left: 10%;
+		bottom: 10%;
+		height: 44px;
+		width: 80%;
+		text-align: center;
+		line-height: 0.7rem;
+		background-color: #ff6800;
+	}
+	.tanchuang_mine_3 span{
+		font-size: 16px;
+		color: white;
+	}
+	.tanchuang_mine_1 img{
+		height: 3.75rem;
+		width: 3.75rem;
+		margin-left: 28%;
+		margin-top: 5%;
+	}
+	.tanchuang_mine_close{
+		background-position: -62px -374px;
+	}
+	.tanchuang_mine_close{
+		height: 50px;
+		width: 50px;
+		background-image: url(../../../static/img/sprt.png);
+		background-repeat: no-repeat;
+		background-size: 500px auto;
+		position: absolute;
+		top:100% ;
+		left: 42%;
+		z-index: 110;
+		}
 </style>

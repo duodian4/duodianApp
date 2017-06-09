@@ -86,6 +86,7 @@
         right: 10px;
         top: 10px;
         text-align: right;
+        color: #ff712b;
     }
     .mvp_level{
         height: 5.75rem;

@@ -36,7 +36,7 @@
 		</div>
 		<div class="huitiao">
 			<router-link to="/daizhifu_mine">
-				<p></p><span>待支付</span>
+				<p></p><span >待支付</span>
 			</router-link>
 			<router-link to="/weiwanc_mine">
 				<p></p><span>未完成</span>
@@ -101,7 +101,8 @@
 export default{
 	data(){
 		return{
-			flagm:false
+			flagm:false,
+
 		}
 	},
 	
@@ -333,4 +334,7 @@ export default{
 		left: 42%;
 		z-index: 110;
 		}
+		/*.xiahua_mine{
+			border-bottom: 5px dashed black;
+		}*/
 </style>

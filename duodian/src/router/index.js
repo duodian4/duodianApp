@@ -75,10 +75,12 @@ const routes = [
 		{path:'import_fruit',component:import_fruit},
 	]},
 
+
 	{path:'/member',component:member},//会员
 	{path:'/cart',component:cart},//购物车
 	{path:'/mine',component:mine},//我的
 	{path:'/search',component:search},//首页搜索
+
 
 	{path:'/details',component:details},
 
