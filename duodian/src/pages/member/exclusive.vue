@@ -1,5 +1,5 @@
 <template>
-    <div class="huiyuan" id="huiyuan">
+    <div class="huiyuan">
         <div class="top1">
             <i class="top1_icon" @click="mvpback()"></i>
             <p>我的会员</p>
@@ -86,7 +86,6 @@
         right: 10px;
         top: 10px;
         text-align: right;
-        color: #ff712b;
     }
     .mvp_level{
         height: 5.75rem;

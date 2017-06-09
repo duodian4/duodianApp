@@ -17,6 +17,10 @@ import duodianmarket from '../pages/home/duodianmarket'
 import globalselect from '../pages/home/globalselect'
 import domestic_fruit from '../pages/classify/domestic_fruit'
 import import_fruit from '../pages/classify/import_fruit'
+import search from '../pages/home/search'//首页搜索页
+
+import details from '../pages/classify/details'
+
 import huiyuan from '../components/huiyuan'//我的会员页
 import myyue from '../components/myyue'//我的余额 
 import myjifeng from '../components/myjifeng'//我的积分
@@ -41,28 +45,45 @@ import fazhan_mine from '../components/fazhan_mine'
 import bangka_mine from '../components/bangka_mine'
 import yaoqing_mine from '../components/yaoqing_mine'//见名知意
 
-import download from '../pages/member/download'
 
+
+
+
+import equity from '../pages/member/equity'//会员权益
+import activity from '../pages/member/activity'//结束活动
+import download from '../pages/member/download'//下载App
+import integral from '../pages/member/integral'//签到积分
+import special from '../pages/member/special'//物美特惠
+import purchase from '../pages/member/purchase'//积分加价购
+import birthday from '../pages/member/birthday'//生日特惠
+import complete from '../pages/member/complete'//我的全部权益
 
 
 
 // 5.定义路由规则
 const routes = [
-	{path:'',component:home,children:[{
+	{path:'',component:home,children:[{//默认页面
 		path:'',component:duodianmarket}]},
-	{path:'/home',component:home,children:[
+	{path:'/home',component:home,children:[//首页
 		{path:'',component:duodianmarket},
 		{path:'duodianmarket',component:duodianmarket},
 		{path:'globalselect',component:globalselect},
 	]},
-	{path:'/classify',component:classify,children:[
+	{path:'/classify',component:classify,children:[//分类
 		{path:'',component:domestic_fruit},
 		{path:'domestic_fruit',component:domestic_fruit},
 		{path:'import_fruit',component:import_fruit},
 	]},
-	{path:'/member',component:member},
-	{path:'/cart',component:cart},
-	{path:'/mine',component:mine},
+
+
+	{path:'/member',component:member},//会员
+	{path:'/cart',component:cart},//购物车
+	{path:'/mine',component:mine},//我的
+	{path:'/search',component:search},//首页搜索
+
+
+	{path:'/details',component:details},
+
 	{path:'/huiyuan',component:huiyuan},
 	{path:'/myyue',component:myyue},
 	{path:'/myjifeng',component:myjifeng},
@@ -123,7 +144,17 @@ const routes = [
 	{path:'/quanbu_mine',component:quanbuding_mine,children:[
 			{path:'',component:quanbu_mine}
 	]},
-	{path:'/download',component:download}
+
+
+	{path:'/download',component:download},
+	{path:'/integral',component:integral},
+	{path:'/activity',component:activity},
+	{path:'/equity',component:equity},
+	{path:'/special',component:special},
+	{path:'/purchase',component:purchase},
+	{path:'/birthday',component:birthday},
+	{path:'/complete',component:complete}
+
 ]
 
 // 6.创建路由对象
