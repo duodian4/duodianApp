@@ -17,6 +17,7 @@ import duodianmarket from '../pages/home/duodianmarket'
 import globalselect from '../pages/home/globalselect'
 import domestic_fruit from '../pages/classify/domestic_fruit'
 import import_fruit from '../pages/classify/import_fruit'
+import details from '../pages/classify/details'
 
 // 5.定义路由规则
 const routes = [
@@ -35,6 +36,7 @@ const routes = [
 	{path:'/member',component:member},
 	{path:'/cart',component:cart},
 	{path:'/mine',component:mine},
+	{path:'/details',component:details},
 ]
 
 // 6.创建路由对象
