@@ -76,9 +76,9 @@ const routes = [
 	{path:'/member',component:member},
 	{path:'/cart',component:cart},
 	{path:'/mine',component:mine},
-<<<<<<< HEAD
+
 	{path:'/details',component:details},
-=======
+
 	{path:'/huiyuan',component:huiyuan},
 	{path:'/myyue',component:myyue},
 	{path:'/myjifeng',component:myjifeng},
@@ -139,7 +139,7 @@ const routes = [
 	{path:'/quanbu_mine',component:quanbuding_mine,children:[
 			{path:'',component:quanbu_mine}
 	]},
-<<<<<<< HEAD
+
 
 	{path:'/download',component:download},
 	{path:'/integral',component:integral},
@@ -149,9 +149,7 @@ const routes = [
 	{path:'/purchase',component:purchase},
 	{path:'/birthday',component:birthday},
 	{path:'/complete',component:complete}
-=======
 
->>>>>>> 053bdc39aa32195f0d482b607ea6c414b5c46bd2
 ]
 
 // 6.创建路由对象
