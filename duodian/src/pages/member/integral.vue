@@ -125,8 +125,4 @@ export default{
 	width: 0.5rem;
 }
 
-
-
-
-
 </style>

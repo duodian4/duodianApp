@@ -17,6 +17,7 @@ import duodianmarket from '../pages/home/duodianmarket'
 import globalselect from '../pages/home/globalselect'
 import domestic_fruit from '../pages/classify/domestic_fruit'
 import import_fruit from '../pages/classify/import_fruit'
+import search from '../pages/home/search'//首页搜索页
 
 import details from '../pages/classify/details'
 
@@ -61,21 +62,25 @@ import complete from '../pages/member/complete'//我的全部权益
 
 // 5.定义路由规则
 const routes = [
-	{path:'',component:home,children:[{
+	{path:'',component:home,children:[{//默认页面
 		path:'',component:duodianmarket}]},
-	{path:'/home',component:home,children:[
+	{path:'/home',component:home,children:[//首页
 		{path:'',component:duodianmarket},
 		{path:'duodianmarket',component:duodianmarket},
 		{path:'globalselect',component:globalselect},
 	]},
-	{path:'/classify',component:classify,children:[
+	{path:'/classify',component:classify,children:[//分类
 		{path:'',component:domestic_fruit},
 		{path:'domestic_fruit',component:domestic_fruit},
 		{path:'import_fruit',component:import_fruit},
 	]},
-	{path:'/member',component:member},
-	{path:'/cart',component:cart},
-	{path:'/mine',component:mine},
+
+
+	{path:'/member',component:member},//会员
+	{path:'/cart',component:cart},//购物车
+	{path:'/mine',component:mine},//我的
+	{path:'/search',component:search},//首页搜索
+
 
 	{path:'/details',component:details},
 
