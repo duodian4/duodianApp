@@ -8,14 +8,15 @@
 						<span>昌平区</span>
 						<i></i>
 					</span>
-					<span class="more">
+					<!-- 跳转搜索页面 -->
+					<router-link to="/search" tag="span" class="more">
 						<span></span>
-					</span>
+					</router-link>
 				</div>
 			</div>
 			<div class="menu">
 				<em class="line"></em>
-				<router-link to="/home/duodianmarket">									
+				<router-link to="/home/duodianmarket">
 					多点超市
 					<img src="https://img.dmallcdn.com/bizItem/201612/c61ded35-a9f4-49a0-9fc3-193b6bafefec" alt="">				
 				</router-link>

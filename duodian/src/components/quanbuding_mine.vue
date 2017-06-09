@@ -7,8 +7,8 @@
 		            
 		        </div>
 		        <div class="top2">
-		        	<router-link to="/quanbu_mine">
-		        		<p>全部</p>
+		        	<router-link to="/quanbu_mine" >
+		        		<p >全部</p>
 		        	</router-link>
 		        	<router-link to="/daizhifu_mine" >
 		        		<p>待支付</p>
@@ -23,13 +23,16 @@
 		        		<p>已取消</p>
 		        	</router-link>
 		        </div>
-		        <hr>
+		     
 		        <router-view></router-view>
 	    </div>
 	</div>
 </template>
 <script type="text/javascript">
 	export default{
+        // data(){
+        //     flag11:false;
+        // },
         methods:{
             mvpback(){
                this.$router.push("/mine");
@@ -38,6 +41,9 @@
     }
 </script>
 <style type="text/css" scoped>
+    .xia_mine{
+        /*border-bottom: 5px solid red;*/
+    }
 	.youhui_mine{
 		 position: fixed;
         height: 100%;
@@ -73,7 +79,7 @@
         top: 5px;
         height: 30px;
         width: 30px;
-        border:1px dashed green;
+      /*  border:1px dashed green;*/
         border-radius: 50%;
         background-color: #333;
         background-image: url(../../static/img/sprt.png);
@@ -97,4 +103,5 @@
    		display: flex;
    		justify-content: space-around;
    	}
+
 </style>
